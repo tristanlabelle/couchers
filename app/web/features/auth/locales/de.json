@@ -1,388 +1,388 @@
 {
-  "community_guidelines_form": {
-    "header": "Community-Richtlinien",
-    "guideline": {
-      "required_error": "Alle Kontrollkästchen werden benötigt",
-      "checkbox_label": "Okay, verstanden"
-    }
-  },
-  "account_form": {
-    "tos_accept_label": "Ich akzeptiere die Nutzungsbedingungen.",
-    "header": "Deine Accountdetails",
-    "username": {
-      "field_label": "Benutzername",
-      "required_error": "Gib deinen Benutzernamen ein",
-      "username_taken_error": "Dieser Benutzername ist bereits vergeben.",
-      "validation_error": "Dein Benutzername sollte mit einem Buchstaben beginnen und kann Buchstaben, Nummern und Unterstriche '_' enthalten.",
-      "helper_text": "Dies ist deine eindeutige Anmelde-ID, nicht dein Anzeigename."
-    },
-    "birthday": {
-      "field_label": "Geburtstag",
-      "required_error": "Gib dein Geburtsdatum ein",
-      "validation_error": "Muss ein gültiges Datum aus der Vergangenheit sein.",
-      "too_young_error": "Du musst mindestens 18 Jahre alt sein, um Couchers nutzen zu dürfen",
-      "not_real_date_error": "Bitte gib ein echtes Geburtsdatum ein"
-    },
-    "hosting_status": {
-      "can_host": "Kann hosten",
-      "maybe": "Kann vielleicht hosten",
-      "cant_host": "Kann nicht hosten",
-      "field_label": "Hosting-Status",
-      "any": "Alle"
-    },
-    "gender": {
-      "field_label": "Ich identifiziere mich als…",
-      "required_error": "Bitte wähle deine Geschlechts/Gender-Identität aus",
-      "man": "Mann",
-      "non_binary": "Nicht-binär",
-      "woman": "Frau"
-    },
-    "tos_prompt": "Um fortzufahren, lies und akzeptiere bitte die <1></1>.",
-    "password": {
-      "validation_error": "Ein Passwort muss zwischen 8 und 256 Zeichen besitzen und darf keinem häufigen Wort entsprechen.",
-      "field_label": "Passwort",
-      "required_error": "Gib ein Passwort an"
-    },
-    "opt_in_newsletter": "Abonnieren unseren gelegentlichen Newsletter über Community-Updates."
-  },
-  "sign_up_completed_prompt": "Wir haben eine E-Mail mit einem Bestätigungslink an deine E-Mail-Adresse gesendet. Bitte klicke auf den Link, um deinen Account zu aktivieren.",
   "change_email_form": {
-    "title": "E-Mail-Adresse ändern",
-    "current_email_message": "Deine aktuelle E-Mail-Adresse lautet <1>{{email}}</1>.",
-    "current_password": "Aktuelles Passwort",
-    "new_email": "Neue E-Mail-Adresse",
-    "success_message": "Die Änderung deiner E-Mail-Adresse wurde empfangen. Überprüfe das Postfach deiner neuen E-Mail-Adresse, um die Änderung abzuschließen."
+    "title": "Change email",
+    "current_email_message": "Your email address is currently <1>{{email}}</1>.",
+    "success_message": "Your email change has been received. Check your new email to complete the change.",
+    "current_password": "Current password",
+    "new_email": "New email"
+  },
+  "do_not_email": {
+    "title": "Do not email me",
+    "status": {
+      "no_emails_enabled_message": "Emails are currently <1>disabled</1> for your account.",
+      "no_emails_disabled_message": "Emails are currently <1>enabled</1> for your account."
+    },
+    "action_button": {
+      "no_emails_enable_text": "Do not email me",
+      "no_emails_disable_text": "Re-enable emails"
+    },
+    "caveat": "By enabling this setting, your account will be set to not accept host requests. You will still receive security emails (such as those for resetting your password). You may still receive the newsletter, you can unsubscribe from it using the link in the newsletter footer."
   },
   "change_email_confirmation": {
-    "change_in_progress": "E-Mail-Adressänderung wird bearbeitet…",
-    "success_message": "Deine E-Mail-Adresse wurde erfolgreich geändert!",
-    "error_message": "Fehler beim Ändern der E-Mail-Adresse: {{message}}"
-  },
-  "basic_form": {
-    "name": {
-      "empty_error": "Bitte gib deinen Namen an",
-      "required_error": "Dieses Feld darf nicht leer sein",
-      "field_label": "Name",
-      "invalid_characters_error": "Der Name darf nur Buchstaben, Leerzeichen, Bindestriche und Apostrophe enthalten",
-      "min_length_error": "Der Name muss mindestens 2 Zeichen lang sein",
-      "max_length_error": "Der Name darf nicht mehr als 100 Zeichen lang sein"
-    },
-    "email": {
-      "field_label": "E-Mail-Adresse",
-      "empty_error": "Bitte gib eine gültige E-Mail-Adresse an",
-      "required_error": "Das Feld \"E-Mail-Adresse\" darf nicht leer sein."
-    }
-  },
-  "location": {
-    "field_label": "Dein Ort",
-    "validation_error": "Bitte gib einen gültigen Ort an."
+    "change_in_progress": "Email change in progress…",
+    "success_message": "Your email has been changed successfully!",
+    "error_message": "Error changing email: {{message}}"
   },
   "change_password_form": {
-    "title": "Passwort ändern",
-    "confirm_password": "Passwort bestätigen",
-    "password_changed_success": "Dein neues Passwort wurde akzeptiert und eine Benachrichtigung wurde an deine E-Mail-Adresse gesendet.",
-    "old_password": "Altes Passwort",
-    "new_password": "Neues Passwort",
-    "password_mismatch_error": "Die eingegebenen Passwörter stimmen nicht überein.",
-    "subtitle": "Verwende dieses Formular, um dein Passwort zurückzusetzen.",
-    "token_error": "Bei der Verarbeitung des Passwort-Reset-Tokens ist ein Fehler aufgetreten. Bitte versuche erneut, den Link aus der E-Mail zu öffnen.",
-    "reset_password_error": "Fehler beim Zurücksetzen des Passworts: {{message}}",
-    "user_logged_error": "Du kannst dein Passwort nicht zurücksetzen, wenn du angemeldet bist. Du kannst dein Passwort in den Einstellungen ändern oder dich abmelden, um es zurückzusetzen.",
-    "reset_password_success": "Dein Passwort wurde erfolgreich geändert!"
+    "title": "Change password",
+    "subtitle": "Use this form to reset your login password.",
+    "confirm_password": "Confirm password",
+    "password_changed_success": "Your new password has been set and a notification was sent to your email.",
+    "old_password": "Old password",
+    "new_password": "New password",
+    "password_mismatch_error": "The passwords don't match.",
+    "user_logged_error": "You cannot reset your password if you are logged in. You can change your password in settings or log out to reset it.",
+    "token_error": "There was an error processing the password reset token, please try opening the link from the email again.",
+    "reset_password_success": "Your password has been changed successfully!",
+    "reset_password_error": "Error resetting password: {{message}}"
+  },
+  "jail_set_password_form": {
+    "title": "Set a password",
+    "explanation": "You have not previously set a password for your account. Please create one now to continue."
   },
   "reset_password_form": {
-    "success_message": "Ein Link zum Zurücksetzen des Passworts wurde an die mit diesem Konto verknüpfte E-Mail-Adresse gesendet, sofern sie existiert und aktiv ist. Bitte beachte, dass die E-Mail möglicherweise im Spam-Ordner landet.",
-    "enter_email": "Benutzernamen/E-Mail-Adresse eingeben"
+    "enter_email": "Enter your username/email",
+    "success_message": "A password reset link has been sent to the email associated with that account, if it exists and is active. Note that the email may sometimes end up in spam."
   },
   "login_page": {
-    "title": "Einloggen",
-    "header": "Willkommen zurück!",
-    "no_account_prompt": "Du hast noch keinen Account? <2>Account erstellen</2>",
+    "title": "Log in",
+    "header": "Welcome back!",
+    "no_account_prompt": "No account yet? <2>Join us</2>",
     "form": {
-      "username_field_label": "E-Mail-Adresse/Benutzername",
-      "password_field_label": "Passwort",
-      "no_password_login_prompt": "Überprüfe dein E-Mail-Postfach nach einem Link, um dich einzuloggen! :)",
-      "remember_me": "Angemeldet bleiben",
-      "forgot_password": "Passwort vergessen?",
-      "hide_password": "Passwort ausblenden",
-      "show_password": "Passwort anzeigen"
+      "username_field_label": "Email/Username",
+      "password_field_label": "Password",
+      "no_password_login_prompt": "Check your email for a link to log in! :)",
+      "remember_me": "Remember me",
+      "forgot_password": "Forgot password?",
+      "show_password": "Show password",
+      "hide_password": "Hide password"
     }
   },
   "basic_sign_up_form": {
-    "header": "Lass uns loslegen!",
-    "existing_user_prompt": "Du hast bereits einen Account? <2>Einloggen</2>",
-    "sign_up_agreement_explainer": "Beim Fortfahren stimmst du unseren <2>Nutzungsbedingungen</2> zu, inklusive unseren Bedingungen zur Verwendung von Cookies, E-Mail-Adresse und digitalen Informationen."
+    "header": "Let's get started!",
+    "existing_user_prompt": "Already have an account? <2>Log in</2>",
+    "sign_up_agreement_explainer": "By continuing, you agree to our <2>Terms of Service</2>, including our cookie, email, and data handling policies."
   },
-  "sign_up_completed_title": "Danke, dass du dich bei uns registriert hast!",
-  "sign_up_confirmed_prompt": "Du hast alles erledigt! Falls du nicht weitergeleitet wirst, versuche dich einzuloggen.",
-  "login_prompt": "Klicke hier, um dich einzuloggen",
-  "about_us": "Über uns",
-  "reset_password": "Passwort zurücksetzen",
-  "account_settings_page": {
-    "birth_date_section": {
-      "explanation": "Die Admins werden dir behilfreich sein, dein Geburtsdatum zu ändern. Bitte kontaktiere support@couchers.org!",
-      "title": "Geburtsdatum ändern"
+  "account_form": {
+    "header": "Your account details",
+    "username": {
+      "field_label": "Username",
+      "helper_text": "This is your unique login ID, not your display name.",
+      "required_error": "Enter your username",
+      "username_taken_error": "This username is taken.",
+      "validation_error": "Username can only have numbers or _, and should start with a letter."
     },
-    "timezone_section": {
-      "explanation": "Diese Zeit und Zeitzone werden von deinem Wohnort bestimmt. Bitte melde einen Bug, falls diese Angaben nicht stimmen.",
-      "title": "Zeitzone und Lokalisierung",
-      "description": "Deine Zeitzone ist <1>{{timezone}}</1>. Davon abhängig ist deine Ortszeit ungefähr <4>{{time}}</4>."
+    "password": {
+      "field_label": "Password",
+      "required_error": "Enter a password",
+      "validation_error": "Password must be between 8 and 256 characters and not be extremely common."
     },
-    "gender_section": {
-      "title": "Geschlecht ändern",
-      "explanation": "Die Admins werden dir behilfreich sein, deine Geschlechtsangaben zu ändern. Bitte kontaktiere support@couchers.org!"
+    "birthday": {
+      "field_label": "Birthday",
+      "required_error": "Enter your birthdate",
+      "validation_error": "Must be a valid date in the past.",
+      "too_young_error": "You must be at least 18 years old to use Couchers",
+      "not_real_date_error": "Please enter a real birthdate"
     },
-    "username_section": {
-      "title": "Benutzername",
-      "description": "Dein Benutzername lautet <1>{{username}}</1>.",
-      "explanation": "Dein Benutzername wird festgelegt, wenn du deinen Account erstellst."
+    "hosting_status": {
+      "any": "Any",
+      "field_label": "Hosting status",
+      "can_host": "Can host",
+      "maybe": "May host",
+      "cant_host": "Can't host"
     },
-    "title": "Kontoeinstellungen",
-    "appearance_section": {
-      "current_mode": "Dein aktueller Modus:",
-      "change_mode": "Erscheinungsmodus ändern",
-      "modes": {
-        "dark": "Dark-Modus",
-        "light": "Light-Modus",
-        "system": "System-Modus (folgt deinem Gerät)"
-      },
-      "click_to_change": "Klick auf die Schaltfläche unten, um zwischen Licht-, Dunkel- und Systemmodus zu wechseln.",
-      "title": "Aussehen"
+    "gender": {
+      "field_label": "I identify as…",
+      "required_error": "Please select your gender identity",
+      "man": "Man",
+      "non_binary": "Non-binary",
+      "woman": "Woman"
+    },
+    "opt_in_newsletter": "Subscribe to our occasional newsletter about community updates.",
+    "tos_prompt": "To continue, please read and accept the <1></1>.",
+    "tos_accept_label": "I Accept the Terms of Service."
+  },
+  "basic_form": {
+    "name": {
+      "field_label": "Name",
+      "empty_error": "Please enter your name",
+      "required_error": "This field can't be empty",
+      "invalid_characters_error": "Name can only contain letters, spaces, hyphens, and apostrophes",
+      "min_length_error": "Name must be at least 2 characters",
+      "max_length_error": "Name must be no more than 100 characters"
+    },
+    "email": {
+      "field_label": "Email",
+      "empty_error": "Please enter a valid email address",
+      "required_error": "Email can't be empty."
     }
   },
-  "feature_preview": {
-    "disclaimer": "Bitte beachte, dass diese Features experimentell sind. Sie funktionieren vielleicht nicht wie vorgesehen und können sich während der Entwicklung noch stark ändern. Gib uns gerne Feedback dazu, indem du die Schaltfläche \"Ein Problem melden\" verwendest um Bugs zu melden!",
-    "no_previews": {
-      "explanation": "Es gibt derzeit keine aktiven Features zur Vorschau, bitte schau zu einem späteren Zeitpunkt wieder vorbei!",
-      "title": "Momentan gibt es keine Features in der Vorschau"
-    },
-    "title": "Feature-Vorschau",
-    "explanation": "Diese Seite ermöglicht es dir Features auszuprobieren, die in Entwicklung und noch nicht für den allgemeinen Nutzen bereit sind."
+  "location": {
+    "field_label": "Your location",
+    "validation_error": "Please select a valid location."
   },
-  "jail": {
-    "title": "Mehr Informationen werden benötigt",
-    "description": "Bitte überprüfe das Folgende, um fortzufahren.",
-    "terms_of_service_section": {
-      "description": "Wir haben unsere Nutzunsbedingen geändert. Um Fortzufahren, lies und akzeptiere bitte die neuen <1></1>."
-    },
-    "location_section": {
-      "title": "Bitte aktualisiere deinen Wohnort",
-      "submit_button": {
-        "active_text": "Speichern",
-        "inactive_text": "Danke!"
-      },
-      "resubmit_button_text": "Erneut absenden",
-      "explanation": "Es scheint, dass deine Koordinaten nicht korrekt waren. Bitte aktualisiere deinen Ort, um fortzufahren."
-    },
-    "mod_note_section": {
-      "title": "Du hast eine Nachricht von den Moderatoren erhalten",
-      "description": "Die Moderatoren haben dir die folgende Mitteilung geschickt. Bitte lies sie sorgfältig durch und bestätige, dass du sie gelesen und verstanden hast, bevor du fortfährst.",
-      "note_title": "Moderatorhinweis erhalten am {{time}}:",
-      "acknowledge": "Mitteilung bestätigen"
-    },
-    "activeness_probe": {
-      "title": "Bist du immer noch bereit, Surfer aufzunehmen?",
-      "still_hosting": "Ich will weiterhin hosten!",
-      "description": "Uns ist aufgefallen, dass du dich eine Weile nicht mehr eingeloggt hast und wollten nachfragen, ob du weiterhin bereit bist Surfern zu hosten.",
-      "not_hosting": "Ich bin nicht mehr in der Lage zu hosten.",
-      "note": "Wir werden dein Profil entsprechend dieser Wahl aktualisieren!"
-    }
-  },
-  "logged_out_message": "Du wurdest ausgeloggt.",
-  "jail_set_password_form": {
-    "title": "Erstelle ein Passwort",
-    "explanation": "Du hast noch kein Passwort für deinen Account angegeben. Bitte erstelle eins, um fortzusetzen."
-  },
-  "do_not_email": {
-    "title": "Sendet mir keine E-Mails",
-    "status": {
-      "no_emails_enabled_message": "E-Mails für dein Konto sind derzeit <1>deaktiviert</1>.",
-      "no_emails_disabled_message": "E-Mails für dein Konto sind derzeit <1>aktiviert</1>."
-    },
-    "action_button": {
-      "no_emails_enable_text": "Von E-Mails abmelden",
-      "no_emails_disable_text": "E-Mails wieder aktivieren"
-    },
-    "caveat": "Wenn du diese Einstellung aktivierst, wird dein Konto so eingestellt, dass es keine Hostanfragen akzeptiert. Du erhälst jedoch weiterhin Sicherheits-E-Mails (z. B. zum Zurücksetzen deines Passworts). Den Newsletter kannst du separat über den Link in der Fußzeile des Newsletters abbestellen."
-  },
-  "unhandled_sign_up_state": "Fehler: unhandled signup flow state.",
-  "change_phone": {
-    "no_phone_description": "Du hast keine Telefonnummer zu deinem Konto hinzugefügt. Um eine hinzuzufügen, geb sie unten ein. Wir werden die Nummer mit einer SMS verifizieren.",
-    "title": "Telefonnummer",
-    "phone_label": "Deine Telefonnummer",
-    "add_button_text": "Telefonnummer hinzufügen",
-    "add_success": "Die Telefonnummer wurde hinzugefügt.",
-    "phone_not_verified_description": "Wir haben dir einen Code an <2>{{phone}}</2> geschicht. Gib den Code hier ein, um deine Telefonnummer zu verifizieren:",
-    "code_label": "Bestätigungscode",
-    "wrong_code": "Der Code ist falsch.",
-    "verify_button_text": "Telefonnummer verifizieren",
-    "verify_success": "Die Telefonnummer wurde verifiziert.",
-    "remove_phone_description": "Deine aktuelle Telefonnummer ist <2>{{phone}}</2>. Du kannst deine Telefonnummer unten entfernen.",
-    "remove_button_text": "Aktuelle Telefonnummer entfernen",
-    "change_to_different_description": "Um deine Telefonnummer zu ändern, gib deine neue Nummer bitte unten ein.",
-    "remove_success": "Telefonnummer wurde entfernt.",
-    "change_button_text": "Telefonnummer ändern",
-    "need_to_donate": "Du musst <2>spenden</2>, bevor du die Telefonverifizierung abschließen kannst."
-  },
-  "delete_account": {
-    "request": {
-      "description": "Um deinen Account zu löschen, folge bitte den unten stehenden Schritten. Wir senden dir anschließend eine Bestätigungs E-Mail.",
-      "title": "Account löschen",
-      "confirm_username_explanation": "Dein Benutzername ist <1>{{ username }}</1>. Bitte gib ihn unten ein, um das Löschen deines Accounts zu bestätigen.",
-      "success_message": "Die Accountlöschung wurde eingeleitet. Schließe sie ab, indem du auf den Link in der Bestätigungs-E-Mail klickst, die wir dir geschickt haben.",
-      "confirm_username_label": "Bestätigung des Benutzernamens",
-      "username_mismatch": "Der Benutzername stimmt nicht überein.",
-      "reason_explanation": "Bitte hilf uns, die Plattform zu verbessern, indem du uns sagst warum du deinen Account löschst.",
-      "reason_label": "Grund der Accountlöschung"
-    },
-    "confirm": {
-      "error_message": "Die Accountlöschung konnte nicht bestätigt werden: {{message}}",
-      "title": "Accountlöschung bestätigen",
-      "account_deleted": "Dein Account wurde gelöscht. Danke, dass du Couchers.org genutzt hast!",
-      "button_text": "Accountlöschung bestätigen"
-    },
-    "missing_token": "Fehler: missing token",
-    "recover": {
-      "title": "Stelle deinen Couchers.org-Account wieder her",
-      "error_message": "Der Account konnte nicht wiederhergestellt werden: {{message}}",
-      "button_text": "Account wiederherstellen",
-      "success": "Dein Account wurde wiederhergestellt, du kannst dich jetzt wieder einloggen. Wir freuen uns, dass du wieder zurück bist!"
-    }
-  },
-  "active_logins": {
-    "current_session": "Dies ist deine aktuelle Sitzung.",
-    "heading": "Aktuelle Anmeldungen",
-    "settings_page_text": "Sieh, wo du angemeldet bist, und melden dich von anderen Sitzungen ab",
-    "settings_page_link": "Aktuelle Anmeldungen verwalten",
-    "description": "Auf dieser Seite werden aktive Anmeldungen aufgelistet. Du kannst dich von jeder davon abmelden, indem du auf die Schaltfläche neben der Anmeldung klickst oder nach unten scrollst und auf die Schaltfläche klickst, um dich von allen außer dieser Sitzung abzumelden.",
-    "login_header": "Angemeldet am {{login_datetime}}",
-    "location": "In der Nähe von <2>{{approximate_location}}</2>",
-    "last_activity": "Letzte Aktivität <2>{{last_activity_ago}}</2>",
-    "expiry": "Läuft ab am <1>{{expiry_datetime}}</1>",
-    "log_out_of_session": "Melde dich von dieser Sitzung ab",
-    "log_out_of_all_session": "Melde dich von allen anderen Sitzungen ab"
-  },
-  "strong_verification": {
-    "information_text3": "Weitere Informationen darüber, wie wir und Iris ID deine Daten verarbeiten und speichern, findest du in unseren <2>Nutzungsbedingungen</2>. Gemäß der <5>Datenschutzrichtlinie</5> von Iris ID werden deine persönlichen Daten innerhalb von 24 Stunden gelöscht. Du kannst jederzeit per Knopfdruck die Löschung dieser Daten zur starken Verifizierung (mit Ausnahme des ausstellenden Landes, des Ablaufdatums und der letzten drei Ziffern der Dokumentennummer) von unseren Servern beantragen.",
-    "status": {
-      "enabled_message": "Du <1>bist aktuell</1> mit der starken Verifizierung verifiziert.",
-      "disabled_message": "Du <1>bist aktuell nicht</1> mit der starken Verifizierung verifiziert."
-    },
-    "title": "Starke Verifizierung",
-    "subtitle": "Die starke Verifizierung ist eine zusätzliche Sicherheitsfunktion, die es dir ermöglicht, dein Geburtsdatum und Geschlecht mithilfe deines biometrischen Reisepasses zu überprüfen.",
-    "begin_button": "Schließe die starke Verifizierung mit Iris-ID ab",
-    "start_button": "Starke Verifizierung starten",
-    "information_text1": "Du benötigst einen <strong>biometrischen Reisepass</strong> (andere Ausweisdokumente funktionieren nicht) und ein NFC-fähiges Apple iPhone oder Android-Smartphone.",
-    "complete_title": "Wir bearbeiten deinen starken Verifizierungsversuch",
-    "complete_message1": "Dein Reisepass wird validiert. Du wirst innerhalb weniger Minuten eine E-Mail mit dem Ergebnis erhalten.",
-    "information_text2": "Durch Klicken auf die Schaltfläche unten wirst du zur Website von Iris ID weitergeleitet, um den Passüberprüfungsprozess abzuschließen.",
-    "complete_message2": "Die starke Verifizierung erlischt, mit ablauf deines Reisepasses. Danach musst du die Verifizierung mit deinem neuen Reisepass erneut durchführen.",
-    "delete_data_title": "Starke Verifizierungs Reisepassdaten löschen",
-    "delete_information": "Du kannst deine Daten zur starken Verifizierung (mit Ausnahme des ausstellenden Landes, des Ablaufdatums und der letzten drei Ziffern der Dokumentnummer) jederzeit von unseren Servern löschen.",
-    "delete_information_text2": "Wenn du deine Daten löschst, kannst du denselben Reisepass nicht erneut für die starke Verifizierung verwenden.",
-    "delete_my_data_button": "Meine Daten löschen",
-    "delete_button": "Meine Starke Verifizierungsdaten löschen",
-    "delete_success": "Deine Reisepassdaten wurden gelöscht.",
-    "learn_more": "Erfahre mehr über Starke Verifizierung <a>hier</a>.",
-    "donation_title": "Danke für die Verifizierung – du hilfst dabei, Couchers.org für alle sicherer zu machen.",
-    "donation_message2": "Wenn du dazu in der Lage bist, erwäge bitte eine Spende, um Couchers.org am Laufen zu halten und weiter wachsen zu lassen.",
-    "donate_button": "Spende, um Couchers.org zu unterstützen",
-    "donation_message1": "Die Verifizierung ist für dich kostenlos, aber sie verursacht für uns Kosten. Als gemeinnützige Organisation, die von Freiwilligen betrieben wird, sind wir auf Spenden angewiesen, um Ausgaben wie den Betrieb unserer Server, die Verifizierung sowie Werkzeuge für Freiwillige und Community-Betreuer zu decken.",
-    "instructions": {
-      "warning": "Wichtig: Das Scannen des Passchipps kann knifflig sein—lies zuerst alle Anweisungen!",
-      "step1": "Lade die <strong>Iris ID</strong> App herunter",
-      "step2": "Klicke unten auf <strong>\"Starke Verifizierung starten\"</strong> (öffnet in einem neuen Tab)",
-      "step3": "Scanne den QR-Code mit deinem Handy",
-      "step4": "Wenn du dazu aufgefordert wirst, öffne die App und scanne den QR-Code erneut",
-      "step5": "Wähle <strong>Reisepass</strong> aus (Personalausweise werden nicht unterstützt)",
-      "step7": "Halte dein Telefon an die Passseite mit dem NFC-Chip (siehe Tipps unten)",
-      "step8": "Du wirst wissen, dass es erfolgreich ist, wenn du steigende Prozentsätze und einen Ladebalken siehst",
-      "download_app_store": "Im App Store herunterladen",
-      "download_google_play": "Bei Google Play herunterladen",
-      "chip_location": {
-        "description": "Die Position des Chips variiert je nach Land. Möglicherweise musst du verschiedene Seiten ausprobieren. Hier sind einige Beispiele für Positionen:",
-        "heading": "Den NFC-Chip deines Reisepasses finden",
-        "us_germany_mexico": "<strong>Brasilien, USA, Deutschland (2016), Indonesien, Mexiko:</strong> Rückseite",
-        "finland_germany_new": "<strong>Finnland, Deutschland (2017+), Russland:</strong> Bildseite",
-        "australia": "<strong>Australien:</strong> Mittlere Seite (markiert mit Symbol + „Chip-Name“)"
-      },
-      "title": "Wie man die starke Verifizierung abschließt",
-      "step1_apple_note": "<strong>Apple-Nutzer:</strong> Du kannst den Download überspringen und stattdessen deinen Browser verwenden. Klicke einfach auf „Öffnen“, wenn du dazu aufgefordert werden.",
-      "step6": "Mache ein klares Foto der Passseite mit den Zahlen am unteren Rand"
-    }
-  },
-  "sign_up_resend_verification_email_help": "Keine E-Mail erhalten? Klick <2>hier, um den Bestätigungslink erneut zu senden</2>.",
-  "sign_up_resend_verification_done": "Erledigt! Wir haben dir eine weitere E-Mail gesendet.",
-  "sign_up_need_verification_title": "Eine letzte Sache: Bestätige deine E-Mail.",
-  "profile_visibility": {
-    "title": "Profil-Sichtbarkeit",
-    "choose": "Wähle aus, welche Informationen für abgemeldete Nutzer sichtbar sind",
-    "visiblility_options": {
-      "nothing": "<1>Nichts</1>: verstecke mich vollständig",
-      "map_only": "<1>Nur Karte</1>: Zeige einen zufällig platzierten, anonymen Karten-Pin ohne weitere Informationen",
-      "limited": "<1>Limitiert</1>: zeige meinen Namen, Ort, Hosting-/Meetup-Status, Abzeichen, Anzahl der Referenzen und wie lange ich schon Coucher bin",
-      "full_profile": "<1>Volles Profil</1>: mein vollständiges Profil anzeigen (außer Referenzen)",
-      "most": "<1>Das Meiste</1>: Zeige den vollständigen Abschnitt „Über mich“ außer „Zusätzliche Informationen“"
-    }
-  },
-  "quick_links": {
-    "error_message": "Fehler: {{message}}",
-    "missing_payload_or_sig": "Ungültige URL",
-    "title": "E-Mail-Schnellaktion",
-    "button_text": "Aktion bestätigen"
-  },
-  "volunteer_management": {
-    "title": "Freiwilligenmanagement",
-    "description": "Wenn deine Rolle oder die Daten nicht korrekt sind, lasse es uns bitte wissen.",
-    "card_preview_label": "Deine Teamseite-Auflistung",
-    "not_a_volunteer_message": "Laut unseren Unterlagen bist du weder derzeit noch in der Vergangenheit Freiwillig tätig gewesen. Falls dies nicht zutrifft, teile uns dies bitte mit, indem du <1>dieses Formular</1> ausfüllst.",
-    "past_volunteer": "Freiwillig tätig von {{startDate}} bis {{endDate}}.",
-    "current_volunteer": "Freiwillig tätig seit {{startDate}}.",
-    "shown_on_team_page_current": "Auf der Teamseite als aktuelles Teammitglied angezeigt.",
-    "shown_on_team_page_past": "Auf der Teamseite unter ehemaligen Freiwilligen angezeigt.",
-    "not_shown_on_team_page": "Auf der Teamseite ausgeblendet.",
-    "update_success": "Deine Freiwilligeninformationen wurden aktualisiert.",
-    "form": {
-      "title": "Aktualisieren deine Freiwilligeninformationen",
-      "override_name_label": "Verwende einen anderen Namen auf der Teamseite (anstelle von \"{{profileName}}\")",
-      "display_name_label": "Anzeigename",
-      "override_location_label": "Verwende einen anderen Ort auf der Teamseite (anstatt \"{{profileLocation}}\")",
-      "display_location_label": "Ort anzeigen",
-      "show_on_team_page_label": "Zeig mich auf der Teamseite",
-      "link_type_label": "Link Typ",
-      "link_type_couchers": "Couchers-Profil",
-      "link_type_email": "E-Mail",
-      "link_type_linkedin": "LinkedIn",
-      "link_type_website": "Webseite",
-      "link_text_label": "Linkwert",
-      "link_text_linkedin_placeholder": "jane-doe-a1b2c3",
-      "link_text_email_placeholder": "deine@email.com",
-      "link_text_email_helper": "Deine E-Mail-Adresse",
-      "link_text_website_helper": "Der anzuzeigende Text für den Link",
-      "link_text_required": "Bitte gib einen Wert für den Link ein",
-      "link_text_email_invalid": "Bitte gib eine giltige E-Mail-Adresse an",
-      "link_text_linkedin_invalid": "Bitte gib einen gültigen LinkedIn-Benutzernamen ein (nur Buchstaben, Zahlen und Bindestriche)",
-      "link_url_label": "Link-URL",
-      "link_url_placeholder": "https://deine-webseite.com",
-      "link_url_helper": "Die vollständige URL, auf die der Link verweisen soll",
-      "link_url_required": "Bitte gib eine URL für die Website ein",
-      "save_button": "Änderungen speichern",
-      "link_text_website_placeholder": "https://deine-webseite.com",
-      "link_text_linkedin_helper": "Der Benutzername aus deiner Profil-URL (z. B. linkedin.com/in/jane-doe-a1b2c3)",
-      "link_url_invalid": "Bitte gib eine gültige URL ein, die mit http:// oder https:// beginnt"
+  "community_guidelines_form": {
+    "header": "Community Guidelines",
+    "guideline": {
+      "checkbox_label": "Okay, got it",
+      "required_error": "All checkboxes are required"
     }
   },
   "motivations_form": {
-    "header": "Was führt dich zu Couchers?",
-    "surfing": "Surfen",
+    "header": "What brings you to Couchers?",
+    "surfing": "Surfing",
+    "surfing_description": "I'm planning a trip and looking for a host",
+    "hosting": "Hosting",
+    "hosting_description": "I'd like to host and welcome travelers in my city",
     "events": "Events",
-    "something_else": "Etwas anderes",
-    "community_organizing_description": "Ich möchte Events und Aktivitäten auf der Plattform organisieren",
-    "hosting": "Hosten",
-    "events_description": "Ich würde gerne an Events teilnehmen und die Community kennenlernen",
-    "community_organizing": "Community organisieren",
-    "surfing_description": "Ich plane eine Reise und suche einen Host",
-    "hosting_description": "Ich würde gerne Reisende in meiner Stadt hosten und willkommen heißen",
-    "something_else_description": "Ich schaue mich nur um oder habe mich noch nicht entschieden"
+    "events_description": "I'd like to join events and meet the community",
+    "community_organizing": "Community organizing",
+    "community_organizing_description": "I want to organize events and activities on the platform",
+    "something_else": "Something else",
+    "something_else_description": "I'm just exploring or haven't decided yet"
+  },
+  "jail": {
+    "title": "More information required",
+    "description": "Please check the following in order to continue.",
+    "terms_of_service_section": {
+      "description": "We've updated our Terms of Service. To continue, please read and accept the new <1></1>."
+    },
+    "location_section": {
+      "title": "Please update your location",
+      "explanation": "It seems your coordinates were not right. Please update your location to continue.",
+      "submit_button": {
+        "active_text": "Save",
+        "inactive_text": "Thanks!"
+      },
+      "resubmit_button_text": "Re-submit"
+    },
+    "mod_note_section": {
+      "title": "You have received a note from the moderators",
+      "description": "The moderators have sent you the following note. Please read it carefully and acknowledge that you have read and understood it before continuing.",
+      "note_title": "Moderator note received on {{time}}:",
+      "acknowledge": "Acknowledge note"
+    },
+    "activeness_probe": {
+      "title": "Are you still open to hosting surfers?",
+      "description": "We noticed you haven't logged in for a while and wanted to check if you're still open to hosting surfers.",
+      "still_hosting": "I still want to host!",
+      "not_hosting": "I'm no longer able to host.",
+      "note": "We'll update your profile to match this choice!"
+    }
+  },
+  "logged_out_message": "You were logged out.",
+  "sign_up_completed_title": "Thank you for signing up!",
+  "sign_up_need_verification_title": "One last thing: confirm your email.",
+  "sign_up_resend_verification_email_help": "Didn't receive the email? Click <2>here to resend the verification link</2>.",
+  "sign_up_resend_verification_done": "Done! We've sent you another email.",
+  "sign_up_completed_prompt": "We have sent an email with a verification link to your email address. Please click the link to activate your account.",
+  "sign_up_confirmed_prompt": "You're all done! If you are not redirected, try logging in.",
+  "unhandled_sign_up_state": "Error: unhandled signup flow state.",
+  "login_prompt": "Click here to log in",
+  "about_us": "About us",
+  "reset_password": "Reset password",
+  "account_settings_page": {
+    "title": "Account settings",
+    "gender_section": {
+      "title": "Change gender",
+      "explanation": "Admins will be happy to change your gender label. Please contact support@couchers.org!"
+    },
+    "birth_date_section": {
+      "title": "Change birthdate",
+      "explanation": "Admins will be happy to change your birthdate. Please contact support@couchers.org!"
+    },
+    "timezone_section": {
+      "title": "Timezone and localisation",
+      "description": "Your timezone is <1>{{timezone}}</1>. Based on this, your local time is approximately <4>{{time}}</4>.",
+      "explanation": "This time and timezone is determined based on your home location. Please report a bug if it is incorrect."
+    },
+    "username_section": {
+      "title": "Username",
+      "description": "Your username is <1>{{username}}</1>.",
+      "explanation": "Your username is set when you create your account."
+    },
+    "appearance_section": {
+      "title": "Appearance",
+      "current_mode": "Your current mode:",
+      "click_to_change": "Click the button below to cycle through Light, Dark, and System modes.",
+      "change_mode": "Change appearance mode",
+      "modes": {
+        "light": "Light mode",
+        "dark": "Dark mode",
+        "system": "System mode (follows your device)"
+      }
+    }
+  },
+  "feature_preview": {
+    "title": "Feature Preview",
+    "explanation": "This page allows you to try out features that are still in development before they are quite ready for use by everyone.",
+    "disclaimer": "Please keep in mind that these features are experimental. They may not work as intended and they may change rapidly as we develop them. Feel free to give feedback using the \"Report a problem\" button to report any bugs!",
+    "no_previews": {
+      "title": "No features currently in preview",
+      "explanation": "There are currently no active features in preview, please check back later!"
+    }
+  },
+  "active_logins": {
+    "heading": "Current logins",
+    "settings_page_text": "See where you are logged in and log out of other sessions",
+    "settings_page_link": "Manage current logins",
+    "description": "This page lists active logins, you can log out of any of them by clicking on the button next to the login, or scrolling to the bottom and clicking the button to log out of all but this session.",
+    "login_header": "Login on {{login_datetime}}",
+    "location": "Near <2>{{approximate_location}}</2>",
+    "last_activity": "Last activity <2>{{last_activity_ago}}</2>",
+    "expiry": "Expires on <1>{{expiry_datetime}}</1>",
+    "current_session": "This is your current session.",
+    "log_out_of_session": "Log out of this session",
+    "log_out_of_all_session": "Log out of all other sessions"
+  },
+  "strong_verification": {
+    "learn_more": "Learn about Strong Verification <a>here</a>.",
+    "title": "Strong Verification",
+    "subtitle": "Strong Verification is an additional safety feature that allows you to verify your date of birth and gender using your biometric passport.",
+    "status": {
+      "enabled_message": "You <1>are currently</1> verified with Strong Verification.",
+      "disabled_message": "You <1>are not currently</1> verified with Strong Verification."
+    },
+    "start_button": "Start Strong Verification",
+    "begin_button": "Complete Strong Verification with Iris ID",
+    "information_text1": "You will need a <strong>biometric passport</strong> (other types of identification will not work) and an NFC-capable Apple iPhone or Android phone.",
+    "information_text2": "By clicking the button below, you will be taken to the Iris ID website to complete the passport verification process.",
+    "information_text3": "You can read more about how we and Iris ID process and store your data in our <2>Terms of Service</2>. As per the Iris ID <5>Privacy policy</5>, they will delete your personal information within 24 hours. You can request that this Strong Verification data (except issuing country, expiry date, and the last three digits of the document number) be deleted from our servers at any time with the click of a button.",
+    "complete_title": "We are processing your Strong Verification attempt",
+    "complete_message1": "Your passport is being validated. You will receive an email with the results within a few minutes.",
+    "complete_message2": "Strong Verification expires when your passport expires, and you will need to complete verification again on the new passport.",
+    "delete_data_title": "Delete your Strong Verification passport data",
+    "delete_information": "You can delete your Strong Verification data (except issuing country, expiry date, and the last three digits of the document number) from our servers at any time.",
+    "delete_information_text2": "If you delete your data, you cannot use the same passport for Strong Verification again.",
+    "delete_my_data_button": "Delete my data",
+    "delete_button": "Delete my Strong Verification data",
+    "delete_success": "Your passport data has been deleted.",
+    "donation_title": "Thanks for verifying—you're helping make Couchers.org safer for everyone.",
+    "donation_message1": "Verification is free for you, but it does come at a cost to us. As a nonprofit run by volunteers, we rely on donations to cover expenses like keeping our servers running, verification, and tools for volunteers and community builders.",
+    "donation_message2": "If you're able, please consider donating to help keep Couchers.org running and growing.",
+    "donate_button": "Donate to support Couchers.org",
+    "instructions": {
+      "title": "How to Complete Strong Verification",
+      "warning": "Important: The passport chip scanning step can be tricky—read all instructions first!",
+      "step1": "Download the <strong>Iris ID</strong> app",
+      "step1_apple_note": "<strong>Apple users:</strong> You can skip the download and use your browser instead. Just click \"Open\" when prompted.",
+      "step2": "Click <strong>\"Start Strong Verification\"</strong> below (opens in new tab)",
+      "step3": "Scan the QR code with your phone",
+      "step4": "If prompted, open the app and scan the QR code again",
+      "step5": "Select <strong>Passport</strong> (ID cards not supported)",
+      "step6": "Take a clear photo of the passport page with numbers at the bottom",
+      "step7": "Hold your phone against the passport page with the NFC chip (see tips below)",
+      "step8": "You'll know it's successful when you see increasing percentages and a loader",
+      "download_app_store": "Download on the App Store",
+      "download_google_play": "Get it on Google Play",
+      "chip_location": {
+        "heading": "Finding Your Passport's NFC Chip",
+        "description": "The chip location varies by country. You may need to try different pages. Here are some examples of locations:",
+        "us_germany_mexico": "<strong>Brazil, US, Germany (2016), Indonesia, Mexico:</strong> Back page",
+        "finland_germany_new": "<strong>Finland, Germany (2017+), Russia:</strong> Picture page",
+        "australia": "<strong>Australia:</strong> Middle page (marked with symbol + \"chip name\")"
+      }
+    }
+  },
+  "quick_links": {
+    "title": "Email quick action",
+    "button_text": "Confirm action",
+    "error_message": "Error: {{message}}",
+    "missing_payload_or_sig": "Invalid URL"
+  },
+  "change_phone": {
+    "title": "Phone number",
+    "need_to_donate": "You need to <2>donate</2> before you can complete phone verification.",
+    "no_phone_description": "You have not added a phone number to your account. To add one, enter it below. We will verify it with a text message.",
+    "phone_label": "Your phone number",
+    "add_button_text": "Add phone number",
+    "add_success": "Phone added.",
+    "phone_not_verified_description": "We sent you a code to <2>{{phone}}</2>. To verify your number, please enter the code below:",
+    "code_label": "Verification code",
+    "wrong_code": "The code is wrong.",
+    "verify_button_text": "Verify phone number",
+    "verify_success": "Phone verified.",
+    "remove_phone_description": "Your phone number is currently <2>{{phone}}</2>. You can remove your phone number below.",
+    "remove_button_text": "Remove current phone number",
+    "remove_success": "Phone removed.",
+    "change_to_different_description": "To change your phone number to a different one, please enter it below.",
+    "change_button_text": "Change phone number"
+  },
+  "delete_account": {
+    "request": {
+      "title": "Delete account",
+      "description": "To delete your account, please follow the steps below. We will email you a confirmation.",
+      "confirm_username_explanation": "Your username is <1>{{ username }}</1>, please type it in below to confirm account deletion.",
+      "confirm_username_label": "Username confirmation",
+      "username_mismatch": "Username doesn't match.",
+      "reason_explanation": "Please help us improve the platform by telling us why you've chosen to delete your account.",
+      "reason_label": "Reason for account deletion",
+      "success_message": "Account deletion initiated. To complete account deletion, please confirm through the email we sent you."
+    },
+    "missing_token": "Error: missing token",
+    "confirm": {
+      "title": "Confirm account deletion",
+      "error_message": "Failed to confirm account deletion: {{message}}",
+      "button_text": "Confirm account deletion",
+      "account_deleted": "Account deleted. Thank you for using Couchers.org!"
+    },
+    "recover": {
+      "title": "Recover your Couchers.org account",
+      "error_message": "Failed to recover account: {{message}}",
+      "button_text": "Recover your account",
+      "success": "Your account has been recovered, you can log back in. We're excited to have you back!"
+    }
+  },
+  "profile_visibility": {
+    "title": "Profile Visibility",
+    "choose": "Choose what information will be visible to logged-out users",
+    "visiblility_options": {
+      "nothing": "<1>Nothing</1>: hide me completely",
+      "map_only": "<1>Map only</1>: show a randomized, anonymous map pin with no other information",
+      "limited": "<1>Limited</1>: show my name, location, hosting/meetup status, badges, number of references, and how long I've been a Coucher",
+      "most": "<1>Most</1>: show full \"About me\" section except \"Additional information\"",
+      "full_profile": "<1>Full profile</1>: show my full profile (except references)"
+    }
+  },
+  "volunteer_management": {
+    "title": "Volunteer Management",
+    "description": "If your role or dates are incorrect, please let us know.",
+    "card_preview_label": "Your team page listing",
+    "not_a_volunteer_message": "According to our records you are not a current or past volunteer. If this is incorrect, please let us know by filling in <1>this form</1>.",
+    "current_volunteer": "Volunteering since {{startDate}}.",
+    "past_volunteer": "Volunteered from {{startDate}} to {{endDate}}.",
+    "shown_on_team_page_current": "Shown on team page as a current team member.",
+    "shown_on_team_page_past": "Shown on team page as a past volunteer.",
+    "not_shown_on_team_page": "Hidden from team page.",
+    "update_success": "Your volunteer information has been updated.",
+    "form": {
+      "title": "Update your volunteer info",
+      "override_name_label": "Use a different name on the team page (instead of \"{{profileName}}\")",
+      "display_name_label": "Display name",
+      "override_location_label": "Use a different location on the team page (instead of \"{{profileLocation}}\")",
+      "display_location_label": "Display location",
+      "show_on_team_page_label": "Show me on the team page",
+      "link_type_label": "Link type",
+      "link_type_couchers": "Couchers profile",
+      "link_type_email": "Email",
+      "link_type_linkedin": "LinkedIn",
+      "link_type_website": "Website",
+      "link_text_label": "Link value",
+      "link_text_linkedin_placeholder": "jane-doe-a1b2c3",
+      "link_text_email_placeholder": "your@email.com",
+      "link_text_website_placeholder": "https://your-website.com",
+      "link_text_linkedin_helper": "The username from your profile URL (e.g. linkedin.com/in/jane-doe-a1b2c3)",
+      "link_text_email_helper": "Your email address",
+      "link_text_website_helper": "The text to display for the link",
+      "link_text_required": "Please enter a value for the link",
+      "link_text_email_invalid": "Please enter a valid email address",
+      "link_text_linkedin_invalid": "Please enter a valid LinkedIn username (letters, numbers, and hyphens only)",
+      "link_url_label": "Link URL",
+      "link_url_placeholder": "https://your-website.com",
+      "link_url_helper": "The full URL the link should point to",
+      "link_url_required": "Please enter a URL for the website",
+      "link_url_invalid": "Please enter a valid URL starting with http:// or https://",
+      "save_button": "Save changes"
+    }
   }
 }
