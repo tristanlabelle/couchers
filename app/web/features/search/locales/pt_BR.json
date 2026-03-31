@@ -1,21 +1,12 @@
 {
   "any": "Em qualquer momento",
+  "choose_search_criteria": "Digite uma localização ou aplique um filtro para buscar.",
+  "error_loading_users": "Erro ao carregar usuários",
   "filter_dialog": {
-    "desktop_title": "Filtros",
     "search_here_button": "Buscar nesta região",
+    "desktop_title": "Filtros",
     "mobile_title": "Buscar"
   },
-  "search_result": {
-    "people_range_message_one": "{{currentRange}} de {{count}} pessoa",
-    "people_range_message_many": "{{currentRange}} de {{count}} de pessoas",
-    "people_range_message_other": "{{currentRange}} de {{count}} pessoas",
-    "include_empty_profiles_button": "Mostrar todos os perfis",
-    "no_user_result_message": "Nenhum usuário encontrado. Tente remover alguns filtros para ver mais resultados.",
-    "show_user_button_label": "Mostrar {{name}} no mapa",
-    "missing_about_description": "{{name}} ainda não disse nada sobre si mesmo",
-    "few_results_suggestion": "Por padrão, perfis vazios e \"não pode hospedar\" estão ocultos."
-  },
-  "error_loading_users": "Erro ao carregar usuários",
   "last_active_options": {
     "last_week": "Última semana",
     "last_month": "Último mês",
@@ -23,9 +14,9 @@
     "last_6_months": "Últimos 6 meses",
     "last_year": "Último ano"
   },
-  "choose_search_criteria": "Digite uma localização ou aplique um filtro para buscar.",
   "form": {
     "location_field_label": "Localização próxima",
+    "missing_location_validation_error": "Especifique uma localização para usar o filtro",
     "keywords": {
       "field_label": "Nome, palavras-chave ou sobrenome",
       "clear_field_action_a11y_label": "Limpar busca",
@@ -40,9 +31,9 @@
         "max_age": "Idade máxima"
       },
       "last_active_field_label": "Última atividade",
+      "hosting_status_field_label": "Disponibilidade para hospedar",
       "meetup_status_field_label": "Disponibilidade para encontros",
-      "complete_profiles_label": "Perfis completos",
-      "hosting_status_field_label": "Disponibilidade para hospedar"
+      "complete_profiles_label": "Perfis completos"
     },
     "accommodation_filters": {
       "title": "Filtros de estadia",
@@ -50,8 +41,8 @@
       "sleeping_arrangement_label": "Condições da hospedagem",
       "sleeping_arrangement_filters": {
         "shared_room": {
-          "description": " - por ex.: quarto compartilhado com seu próprio leito",
-          "label": "Quarto compartilhado"
+          "label": "Quarto compartilhado",
+          "description": " - por ex.: quarto compartilhado com seu próprio leito"
         },
         "private": {
           "label": "Espaço privado",
@@ -67,29 +58,37 @@
       "title": "Mostrar perfis vazios"
     },
     "general_filters": {
+      "accepts_last_minute_requests": "Aceita solicitações de última hora",
       "has_strong_verification": "Tem verificação forte",
       "has_references": "Tem referências",
-      "get_strong_verification": "Obtenha a verificação forte aqui (é grátis).",
       "same_gender_only": "Mostrar apenas pessoas do mesmo gênero",
       "same_gender_only_helper_text": "Apenas usuários com verificação forte podem usar este filtro.",
-      "accepts_last_minute_requests": "Aceita solicitações de última hora"
+      "get_strong_verification": "Obtenha a verificação forte aqui (é grátis)."
     },
     "rules": {
+      "title": "Regras",
       "alcohol_allowed": "Permite bebidas alcoólicas",
       "kids_allowed": "Permite crianças",
       "pets_allowed": "Permite pets",
-      "smokes_at_home": "Fuma em casa",
-      "title": "Regras"
+      "smokes_at_home": "Fuma em casa"
     },
     "submit_button_label": "Aplicar",
     "search_filters": "Filtros de busca",
-    "clear_filters": "Limpar todos os filtros",
-    "missing_location_validation_error": "Especifique uma localização para usar o filtro"
+    "clear_filters": "Limpar todos os filtros"
+  },
+  "search_result": {
+    "no_user_result_message": "Nenhum usuário encontrado. Tente remover alguns filtros para ver mais resultados.",
+    "show_user_button_label": "Mostrar {{name}} no mapa",
+    "missing_about_description": "{{name}} ainda não disse nada sobre si mesmo",
+    "few_results_suggestion": "Por padrão, perfis vazios e \"não pode hospedar\" estão ocultos.",
+    "include_empty_profiles_button": "Mostrar todos os perfis",
+    "people_range_message_one": "{{currentRange}} de {{count}} pessoa",
+    "people_range_message_other": "{{currentRange}} de {{count}} pessoas"
   },
   "views": {
-    "map_and_list": "Mapa e Lista",
+    "choose_map_view": "Escolher visualização do mapa",
     "list": "Lista",
-    "choose_map_view": "Escolher visualização do mapa"
+    "map_and_list": "Mapa e Lista"
   },
   "location": "Localização",
   "keyword": "Palavra-chave",
