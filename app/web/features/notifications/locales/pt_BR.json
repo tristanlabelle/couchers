@@ -1,67 +1,67 @@
 {
-  "notification_settings": {
-    "title": "Definições de notificações",
-    "edit_preferences": {
-      "list_heading": "Notificações que você pode receber",
-      "description": "Qualquer alteração feita abaixo é salva automaticamente. Você ainda pode receber notificações importantes sobre sua conta e conteúdo, apesar de suas preferências de notificações.",
-      "error_loading": "Erro ao carregar preferências de notificações",
-      "list_items": {
-        "chat": "Mensagens",
-        "host_request": "Solicitações de hospedagem",
-        "event": "Eventos",
-        "friend_request": "Solicitações de amizade",
-        "reference": "Referências",
-        "account_security": "Segurança da conta",
-        "account_settings": "Configurações da conta",
-        "other_notifications": "Outras notificações",
-        "discussion": "Discussões",
-        "reply": "Respostas"
-      },
-      "title": "Preferências de Notificações",
-      "expand_all": "Expandir tudo",
-      "collapse_all": "Recolher tudo"
-    },
-    "push_notifications": {
-      "permission_denied": {
-        "instructions": {
-          "generic": "Você bloqueou as notificações. Habilite as notificações nas configurações do seu navegador para continuar.",
-          "macos": "No macOS, vá para Configurações do Sistema > Notificações, e modifique as permissões do aplicativo.",
-          "chrome": "Você bloqueou as notificações. Habilite as notificações nas configurações do seu navegador para continuar. No Chrome, clique no ícone de cadeado, na barra de endereço, em seguida, ajuste a configuração \"Notificações\".",
-          "firefox": "Você bloqueou as notificações. Habilite as notificações nas configurações do seu navegador para continuar. No Firefox, vá para Preferências > Privacidade e Segurança > Permissões > Notificações, e modifique a permissão do website.",
-          "safari": "Você bloqueou as notificações. Habilite as notificações nas configurações do seu navegador para continuar. No Safari, vá para Preferências > Websites > Notificações para modificar as permissões.",
-          "mobile": {
-            "browser": "Nas configurações do navegador do seu dispositivo móvel, ajuste as permissões de notificações para este website.",
-            "os": "Nas configurações de notificações do seu dispositivo móvel, ajuste as permissões para permitir notificações."
-          },
-          "windows": "No Windows, vá para Configurações > Sistema > Notificações e ações, e ajuste as permissões do aplicativo ou website.",
-          "linux": {
-            "gnome": "No GNOME, vá para Configurações > Notificações para ajustar as permissões do aplicativo.",
-            "kde": "No KDE, vá para Configurações do Sistema > Notificações para modificar as permissões."
-          }
+    "all": "Todas",
+    "unread": "Não lidas",
+    "error_loading": "Erro ao carregar notificações",
+    "error_updating_notifications": "Erro ao atualizar notificações",
+    "mark_unread": "Marcar como não lida",
+    "mark_all_read": "Marcar todas como lidas",
+    "no_new_notifications": "Nenhuma nova notificação",
+    "notification_settings": {
+        "title": "Definições de notificações",
+        "edit_in_console": "Você pode alterar suas preferências de notificações <2>nesta página</2>. Em breve, elas serão movidas para cá.",
+        "go_to_button": "Gerenciar preferências de notificações",
+        "edit_preferences": {
+            "title": "Preferências de Notificações",
+            "description": "Qualquer alteração feita abaixo é salva automaticamente. Você ainda pode receber notificações importantes sobre sua conta e conteúdo, apesar de suas preferências de notificações.",
+            "list_heading": "Notificações que você pode receber",
+            "expand_all": "Expandir tudo",
+            "collapse_all": "Recolher tudo",
+            "error_loading": "Erro ao carregar preferências de notificações",
+            "list_items": {
+                "account_security": "Segurança da conta",
+                "account_settings": "Configurações da conta",
+                "other_notifications": "Outras notificações",
+                "chat": "Mensagens",
+                "event": "Eventos",
+                "friend_request": "Solicitações de amizade",
+                "host_request": "Solicitações de hospedagem",
+                "reference": "Referências",
+                "discussion": "Discussões",
+                "reply": "Respostas"
+            }
         },
-        "platform_settings_description": "Ainda enfrentando problemas após habilitar as notificações em seu navegador? Pode ser necessário ajustar as configurações da sua plataforma."
-      },
-      "description": "Você pode habilitar notificações por push para Couchers.org em seu dispositivo. Estamos trabalhando para expandir essa funcionalidade.",
-      "allow_push": "Clique no botão \"Permitir\" na pop-up do seu navegador para habilitar notificações por push.",
-      "title": "Notificações por Push",
-      "error_generic": "Erro durante a inscrição para notificações por push",
-      "error_unsupported": "Não há suporte para notificações por push ou Service Workers neste navegador.",
-      "enabled_message": "Atualmente as notificações por push estão <1>habilitadas</1>.",
-      "disabled_message": "Atualmente as notificações por push estão <1>desabilitadas</1>.",
-      "error_not_granted": "Você não deu permissão para envio de notificações por push."
+        "push_notifications": {
+            "title": "Notificações por Push",
+            "description": "Você pode habilitar notificações por push para Couchers.org em seu dispositivo. Estamos trabalhando para expandir essa funcionalidade.",
+            "allow_push": "Clique no botão \"Permitir\" na pop-up do seu navegador para habilitar notificações por push.",
+            "enabled_message": "Atualmente as notificações por push estão <1>habilitadas</1>.",
+            "disabled_message": "Atualmente as notificações por push estão <1>desabilitadas</1>.",
+            "error_generic": "Erro durante a inscrição para notificações por push",
+            "error_unsupported": "Não há suporte para notificações por push ou Service Workers neste navegador.",
+            "error_not_granted": "Você não deu permissão para envio de notificações por push.",
+            "permission_denied": {
+                "platform_settings_description": "Ainda enfrentando problemas após habilitar as notificações em seu navegador? Pode ser necessário ajustar as configurações da sua plataforma.",
+                "instructions": {
+                    "chrome": "Você bloqueou as notificações. Habilite as notificações nas configurações do seu navegador para continuar. No Chrome, clique no ícone de cadeado, na barra de endereço, em seguida, ajuste a configuração \"Notificações\".",
+                    "firefox": "Você bloqueou as notificações. Habilite as notificações nas configurações do seu navegador para continuar. No Firefox, vá para Preferências > Privacidade e Segurança > Permissões > Notificações, e modifique a permissão do website.",
+                    "safari": "Você bloqueou as notificações. Habilite as notificações nas configurações do seu navegador para continuar. No Safari, vá para Preferências > Websites > Notificações para modificar as permissões.",
+                    "generic": "Você bloqueou as notificações. Habilite as notificações nas configurações do seu navegador para continuar.",
+                    "macos": "No macOS, vá para Configurações do Sistema > Notificações, e modifique as permissões do aplicativo.",
+                    "windows": "No Windows, vá para Configurações > Sistema > Notificações e ações, e ajuste as permissões do aplicativo ou website.",
+                    "linux": {
+                        "gnome": "No GNOME, vá para Configurações > Notificações para ajustar as permissões do aplicativo.",
+                        "kde": "No KDE, vá para Configurações do Sistema > Notificações para modificar as permissões."
+                    },
+                    "mobile": {
+                        "browser": "Nas configurações do navegador do seu dispositivo móvel, ajuste as permissões de notificações para este website.",
+                        "os": "Nas configurações de notificações do seu dispositivo móvel, ajuste as permissões para permitir notificações."
+                    }
+                }
+            }
+        }
     },
-    "edit_in_console": "Você pode alterar suas preferências de notificações <2>nesta página</2>. Em breve, elas serão movidas para cá.",
-    "go_to_button": "Gerenciar preferências de notificações"
-  },
-  "push_notification_banner": {
-    "message": "Não perca solicitações, respostas ou mensagens. Podemos enviar notificações por push para você?",
-    "confirm": "Sim, por favor!"
-  },
-  "unread": "Não lidas",
-  "mark_unread": "Marcar como não lida",
-  "mark_all_read": "Marcar todas como lidas",
-  "no_new_notifications": "Nenhuma nova notificação",
-  "error_loading": "Erro ao carregar notificações",
-  "all": "Todas",
-  "error_updating_notifications": "Erro ao atualizar notificações"
+    "push_notification_banner": {
+        "message": "Não perca solicitações, respostas ou mensagens. Podemos enviar notificações por push para você?",
+        "confirm": "Sim, por favor!"
+    }
 }
