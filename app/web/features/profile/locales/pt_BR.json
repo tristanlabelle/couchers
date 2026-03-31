@@ -1,5 +1,5 @@
 {
-  "my_connections": "Minhas conexões",
+  "active": "Ativo",
   "actions": {
     "back_to_dashboard": "Voltar ao painel principal",
     "message_label": "Enviar mensagem",
@@ -7,8 +7,6 @@
     "decline_friend_label": "Recusar",
     "request": "Solicitar"
   },
-  "active": "Ativo",
-  "cancel": "Cancelar",
   "heading": {
     "about_me": "Sobre mim",
     "age_gender": "Idade/Gênero",
@@ -41,10 +39,9 @@
   },
   "edit": "Editar perfil",
   "helper_text": {
+    "missing_profile_photo": "Adicione uma foto para concluir seu perfil.",
     "characters_remaining_one": "<bold>Escreva pelo menos mais {{count}} caractere para desbloquear o envio de mensagens e solicitações.</bold> Perfis verdadeiros criam uma comunidade de confiança. Quanto mais você compartilhar, mais fácil é se conectar!",
-    "characters_remaining_many": "<bold>Escreva pelo menos mais {{count}} caracteres para desbloquear o envio de mensagens e solicitações.</bold> Perfis verdadeiros criam uma comunidade de confiança. Quanto mais você compartilhar, mais fácil é se conectar!",
-    "characters_remaining_other": "<bold>Escreva pelo menos mais {{count}} caracteres para desbloquear o envio de mensagens e solicitações.</bold> Perfis verdadeiros criam uma comunidade de confiança. Quanto mais você compartilhar, mais fácil é se conectar!",
-    "missing_profile_photo": "Adicione uma foto para concluir seu perfil."
+    "characters_remaining_other": "<bold>Escreva pelo menos mais {{count}} caracteres para desbloquear o envio de mensagens e solicitações.</bold> Perfis verdadeiros criam uma comunidade de confiança. Quanto mais você compartilhar, mais fácil é se conectar!"
   },
   "section_tabs_a11y_label": "abas para detalhes do usuário",
   "incomplete_dialog": {
@@ -154,7 +151,9 @@
   },
   "edit_profile_tab_bar_a11y_label": "abas para editar diferentes partes do seu perfil",
   "info_unanswered": "Pergunte para mim",
+  "my_connections": "Minhas conexões",
   "connection_pending": "Pendente",
+  "cancel": "Cancelar",
   "more_profile_actions": "...",
   "more_profile_actions_a11y_text": "Mais ações do perfil",
   "report_details": "Detalhes",
@@ -237,12 +236,11 @@
     "request": "Solicitação",
     "request_description": "Compartilhe seus planos para a visita e inclua por que você está solicitando a hospedagem com esse anfitrião em particular.",
     "request_description_empty": "Escreva uma mensagem de solicitação.",
-    "request_chars_remaining_one": "Escreva pelo menos mais {{count}} caractere para enviar uma solicitação de hospedagem.",
-    "request_chars_remaining_many": "Escreva pelo menos mais {{count}} caracteres para enviar uma solicitação de hospedagem.",
-    "request_chars_remaining_other": "Escreva pelo menos mais {{count}} caracteres a mais para enviar uma solicitação de hospedagem.",
     "stay_type_a11y_text": "tipo de estadia",
     "success": "Solicitação enviada!",
-    "guest_count": "Número de hóspedes"
+    "guest_count": "Número de hóspedes",
+    "request_chars_remaining_one": "Escreva pelo menos mais {{count}} caractere para enviar uma solicitação de hospedagem.",
+    "request_chars_remaining_other": "Escreva pelo menos mais {{count}} caracteres a mais para enviar uma solicitação de hospedagem."
   },
   "reference_filter_label": {
     "friend": "De amigos",
@@ -293,10 +291,9 @@
   "open_profile_new_tab": "Abrir o perfil em uma nova guia",
   "reference_amounts": {
     "no_references": "Nenhuma referência",
+    "hundred_or_more_references": "Mais de 100 referências",
     "count_references_one": "{{count}} referência",
-    "count_references_many": "{{count}} referências",
-    "count_references_other": "{{count}} referências",
-    "hundred_or_more_references": "Mais de 100 referências"
+    "count_references_other": "{{count}} referências"
   },
   "incomplete_profile_haiku": "Um avatar em branco observa você,\nMistério por trás do silêncio —\nQuem é você, estranho?",
   "search_indicator": "O começo desta seção fica visível nos resultados de busca quando outros membros buscam por você",
