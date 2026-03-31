@@ -1,3 +1,16 @@
 files:
   - source: /**/locales/en.json
     translation: /%original_path%/%locale%.json
+    type: i18next_json
+    languages_mapping:
+      locale:
+        fr: fr
+        fr-FR: fr
+        es: es
+        es-ES: es
+        es-419: es_419
+        ca: ca
+        de-DE: de
+        pt: pt
+        pt-PT: pt
+        pt-BR: pt_BR
