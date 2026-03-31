@@ -1,12 +1,14 @@
 {
   "add_friend": "Ajouter un.e ami.e",
+  "accept": "Accepter",
+  "decline": "Réfuser",
+  "blocked_list_title": "Utilisateurs bloqués",
+  "block_user": "Bloquer l'utilisateur",
   "block_user_confirmation_dialog": {
     "title": "Êtez-vous sûr de bloquer {{name}} ?",
     "message": "Les messages et demandes de cette personne seront bloqués. Votre profil, vos événements et vos commentaires ne lui seront pas visibles. La personne ne sera pas informée de votre blocage.",
     "confirm": "Bloquer"
   },
-  "blocked_list_title": "Utilisateurs bloqués",
-  "block_user": "Bloquer l'utilisateur",
   "my_connections": "Mes connexions",
   "friends": "Ami.e.s",
   "friend_list_title": "Vos ami.e.s",
@@ -18,8 +20,6 @@
   "no_friend_requests_sent": "Aucune demande d'ami.e en attente",
   "pending": "En attente",
   "remove_friend": "Supprimer l’ami.e",
-  "accept": "Accepter",
-  "decline": "Réfuser",
   "remove_friend_confirmation_dialog": {
     "title": "Supprimer l’ami.e",
     "message": "Êtes-vous sûr.e de vouloir supprimer {{name}} ? Cette action est irréversible.",
