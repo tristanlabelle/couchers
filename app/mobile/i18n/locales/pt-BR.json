@@ -1,31 +1,31 @@
 {
-  "tabs": {
-    "events": "Eventos",
-    "communities": "Comunidades",
-    "home": "Início",
-    "messages": "Mensagens",
-    "search": "Busca"
-  },
   "errors": {
-    "failed_to_load": "Falha ao carregar",
-    "check_connection": "Verifique sua conexão de internet e tente novamente.",
-    "try_again": "Tente novamente",
-    "camera_permission_denied": "É necessária permissão de câmera para tirar fotos.",
-    "camera_permission_required": "Permissão de câmera é necessária",
-    "camera_permission_explanation": "Este aplicativo precisa de acesso à câmera para tirar fotos. Conceda permissão quando solicitado.",
-    "camera_permission_denied_permanently": "O acesso à câmera foi negado. Para tirar fotos, você precisará habilitar a permissão de câmera nas configurações do seu dispositivo."
+    "failed_to_load": "Failed to load",
+    "check_connection": "Check your internet connection and try again.",
+    "try_again": "Try Again",
+    "camera_permission_denied": "Camera permission is required to take photos.",
+    "camera_permission_required": "Camera Permission Required",
+    "camera_permission_explanation": "This app needs camera access to take photos. Please grant permission when prompted.",
+    "camera_permission_denied_permanently": "Camera access was denied. To take photos, you'll need to enable camera permission in your device Settings."
   },
   "not_found": {
-    "title": "Opa!",
-    "message": "Essa tela não existe.",
-    "go_home": "Volte para a tela inicial!"
+    "title": "Oops!",
+    "message": "This screen does not exist.",
+    "go_home": "Go to home screen!"
+  },
+  "tabs": {
+    "home": "Home",
+    "messages": "Messages",
+    "communities": "Communities",
+    "search": "Search",
+    "events": "Events"
   },
   "common": {
-    "cancel": "Cancelar",
-    "add_photo": "Adicionar Foto",
-    "choose_photo_source": "Escolha de onde selecionar sua foto",
-    "take_photo": "Tirar Foto",
-    "choose_from_library": "Escolher da Biblioteca",
-    "open_settings": "Abrir configurações"
+    "cancel": "Cancel",
+    "add_photo": "Add Photo",
+    "choose_photo_source": "Choose where to get your photo from",
+    "take_photo": "Take Photo",
+    "choose_from_library": "Choose from Library",
+    "open_settings": "Open Settings"
   }
 }
