@@ -1,61 +1,62 @@
 {
   "any": "Alle",
+  "choose_search_criteria": "Gib einen Ort ein oder nutze einen Filter zum suchen.",
+  "error_loading_users": "Fehler beim Laden von Benutzern",
+  "filter_dialog": {
+    "search_here_button": "In diesem Bereich suchen",
+    "desktop_title": "Filter",
+    "mobile_title": "Suchen"
+  },
   "last_active_options": {
-    "last_3_months": "Letzten 3 Monate",
     "last_week": "Letzte Woche",
     "last_month": "Letzter Monat",
+    "last_3_months": "Letzten 3 Monate",
     "last_6_months": "Letzten 6 Monate",
     "last_year": "Letztes Jahr"
   },
-  "filter_dialog": {
-    "mobile_title": "Suchen",
-    "desktop_title": "Filter",
-    "search_here_button": "In diesem Bereich suchen"
-  },
   "form": {
+    "location_field_label": "In der Nähe von",
     "missing_location_validation_error": "Gib einen Ort an, um diesen Filter zu verwenden",
+    "keywords": {
+      "field_label": "Name, Stichwort oder Nutzername",
+      "clear_field_action_a11y_label": "Suche zurücksetzen",
+      "search_this_keyword_a11y_label": "Dieses Stichwort suchen"
+    },
+    "by_location_filter_label": "Nach Ort",
+    "by_keyword_filter_label": "Nach Stichwort oder Name",
+    "host_filters": {
+      "age": {
+        "field_label": "Host Alter",
+        "min_age": "Mindestalter",
+        "max_age": "Höchstalter"
+      },
+      "last_active_field_label": "Zuletzt aktiv",
+      "hosting_status_field_label": "Hosting-Status",
+      "meetup_status_field_label": "Treffen-Status",
+      "complete_profiles_label": "Vollständige Profile"
+    },
     "accommodation_filters": {
-      "guests_field_label": "Anzahl der Gäste",
       "title": "Unterkunftsfilter",
+      "guests_field_label": "Anzahl der Gäste",
       "sleeping_arrangement_label": "Schlafmöglichkeiten",
       "sleeping_arrangement_filters": {
         "shared_room": {
           "label": "Geteiltes Zimmer",
           "description": " - z.B. geteiltes Zimmer mit eigener Schlaffläche"
         },
-        "common": {
-          "description": " - z.B. Couch im Wohnzimmer",
-          "label": "Gemeinschaftsraum"
-        },
         "private": {
           "label": "Privater Bereich",
           "description": " - z.B. eigenes Zimmer o. Ä."
+        },
+        "common": {
+          "label": "Gemeinschaftsraum",
+          "description": " - z.B. Couch im Wohnzimmer"
         }
       }
-    },
-    "location_field_label": "In der Nähe von",
-    "keywords": {
-      "clear_field_action_a11y_label": "Suche zurücksetzen",
-      "field_label": "Name, Stichwort oder Nutzername",
-      "search_this_keyword_a11y_label": "Dieses Stichwort suchen"
-    },
-    "by_location_filter_label": "Nach Ort",
-    "host_filters": {
-      "last_active_field_label": "Zuletzt aktiv",
-      "hosting_status_field_label": "Hosting-Status",
-      "complete_profiles_label": "Vollständige Profile",
-      "age": {
-        "field_label": "Host Alter",
-        "max_age": "Höchstalter",
-        "min_age": "Mindestalter"
-      },
-      "meetup_status_field_label": "Treffen-Status"
     },
     "empty_profile_filters": {
       "title": "Leere Profile anzeigen"
     },
-    "submit_button_label": "Anwenden",
-    "by_keyword_filter_label": "Nach Stichwort oder Name",
     "general_filters": {
       "accepts_last_minute_requests": "Nimmt Last-Minute-Anfragen an",
       "has_strong_verification": "Hat eine starke Verifizierung",
@@ -66,11 +67,12 @@
     },
     "rules": {
       "title": "Regeln",
+      "alcohol_allowed": "Alkohol erlaubt",
       "kids_allowed": "Kinder erlaubt",
       "pets_allowed": "Haustiere erlaubt",
-      "smokes_at_home": "Raucht zu Hause",
-      "alcohol_allowed": "Alkohol erlaubt"
+      "smokes_at_home": "Raucht zu Hause"
     },
+    "submit_button_label": "Anwenden",
     "search_filters": "Suchfilter",
     "clear_filters": "Alle Filter entfernen"
   },
@@ -83,8 +85,6 @@
     "people_range_message_one": "{{currentRange}} von {{count}} Person",
     "people_range_message_other": "{{currentRange}} von {{count}} Personen"
   },
-  "choose_search_criteria": "Gib einen Ort ein oder nutze einen Filter zum suchen.",
-  "error_loading_users": "Fehler beim Laden von Benutzern",
   "views": {
     "choose_map_view": "Kartenansicht auswählen",
     "list": "Liste",
