@@ -1,8 +1,8 @@
 {
   "errors": {
-    "try_again": "Inténtalo de nuevo",
     "failed_to_load": "Error al cargar",
     "check_connection": "Comprueba tu conexión a internet y vuélvelo a intentar.",
+    "try_again": "Inténtalo de nuevo",
     "camera_permission_denied": "Se requiere el permiso de cámara para hacer fotos.",
     "camera_permission_required": "Permiso de cámara requerido",
     "camera_permission_explanation": "Esta aplicación necesita acceso a la cámara para poder hacer fotos. Por favor concede el permiso cuando se te solicite.",

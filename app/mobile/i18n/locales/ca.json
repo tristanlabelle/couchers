@@ -1,19 +1,31 @@
 {
-  "tabs": {
-    "events": "Esdeveniments",
-    "home": "Inici",
-    "messages": "Missatges",
-    "communities": "Comunitats",
-    "search": "Cerca"
-  },
   "errors": {
     "failed_to_load": "No s'ha pogut carregar",
     "check_connection": "Comprova la teva connexió a internet i torna-ho a intentar.",
-    "try_again": "Torna-ho a provar"
+    "try_again": "Torna-ho a provar",
+    "camera_permission_denied": "Camera permission is required to take photos.",
+    "camera_permission_required": "Camera Permission Required",
+    "camera_permission_explanation": "This app needs camera access to take photos. Please grant permission when prompted.",
+    "camera_permission_denied_permanently": "Camera access was denied. To take photos, you'll need to enable camera permission in your device Settings."
   },
   "not_found": {
     "title": "Vaja!",
     "message": "Aquesta pantalla no existeix.",
     "go_home": "Ves a la pantalla d'inici!"
+  },
+  "tabs": {
+    "home": "Inici",
+    "messages": "Missatges",
+    "communities": "Comunitats",
+    "search": "Cerca",
+    "events": "Esdeveniments"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "add_photo": "Add Photo",
+    "choose_photo_source": "Choose where to get your photo from",
+    "take_photo": "Take Photo",
+    "choose_from_library": "Choose from Library",
+    "open_settings": "Open Settings"
   }
 }

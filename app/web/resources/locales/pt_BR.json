@@ -1,103 +1,112 @@
 {
-  "accept": "Aceitar",
-  "load_more": "Carregar mais",
+  "back": "Voltar",
   "close": "Fechar",
   "create_account": "Criar Conta",
   "expand": "Expandir",
-  "back": "Voltar",
-  "update": "Atualizar",
-  "sign_up": "Registre-se",
-  "join_us": "Junte-se a nós",
-  "login": "Login",
-  "create": "Criar",
   "retract": "Recolher",
   "couchers": "Couchers.org",
+  "learn_more": "Saiba mais",
   "legal_name": "Couchers, Inc.",
+  "login": "Login",
+  "sign_up": "Registre-se",
+  "join_us": "Junte-se a nós",
+  "update": "Atualizar",
+  "create": "Criar",
   "terms_of_service": "Termos de Serviço",
   "required": "Obrigatório",
+  "accept": "Aceitar",
   "continue": "Continuar",
-  "thanks": "Obrigado!",
-  "next": "Próximo",
-  "learn_more": "Saiba mais",
-  "donation_banner": {
-    "progress_label": "Andamento da doação",
-    "message": "O Couchers.org funciona à gentileza — assim como o próprio conceito de couch surfing. Ajude-nos nesse momento para continuarmos dessa forma. Estamos levantando {{goal}} para cobrir os custos de manutenção do Couchers.org.",
-    "button": "Doe agora"
+  "copy_button": {
+    "a11y": "Copiar",
+    "copied_tooltip": "Copiado para área de transferência"
   },
+  "thanks": "Obrigado!",
+  "donation_banner": {
+    "message": "O Couchers.org funciona à gentileza — assim como o próprio conceito de couch surfing. Ajude-nos nesse momento para continuarmos dessa forma. Estamos levantando {{goal}} para cobrir os custos de manutenção do Couchers.org.",
+    "button": "Doe agora",
+    "progress_label": "Andamento da doação"
+  },
+  "community_standing": "Reputação na comunidade",
+  "community_standing_description": "Calculada a partir de vários fatores, como referências e engajamento na comunidade.",
+  "verification_score": "Pontuação de verificação",
+  "verification_score_description": "Calculada a partir de recomendações de outros usuários",
+  "edit": "Editar",
   "save": "Salvar",
   "save_changes": "Salvar alterações",
+  "send": "Enviar",
+  "cancel": "Cancelar",
+  "submit": "Enviar",
+  "confirm": "Confirmar",
+  "image_input": {
+    "select_button_a11y": "Selecione uma imagem",
+    "replace_image_tooltip": "Clique para substituir a imagem",
+    "read_file_error_message": "Não foi possível ler o arquivo"
+  },
+  "load_more": "Carregar mais",
+  "read_more": "Ler mais",
+  "next": "Próximo",
+  "previous": "Anterior",
   "mod": "Moderação",
   "cookie_message": "Usamos cookies para garantir a melhor experiência em nosso website. Ao continuar a usar este site, assumiremos que você está de acordo com isso. Você pode ler mai sobre nossos <1>Termos de Serviço</1>.",
   "hosting_status": {
     "any": "Qualquer um",
     "can_host": "Pode hospedar",
+    "maybe": "Talvez possa hospedar",
     "cant_host": "Não pode hospedar",
-    "unspecified_info": "Não informou",
-    "maybe": "Talvez possa hospedar"
+    "unspecified_info": "Não informou"
   },
   "language_preference": {
     "current_preferred_language": "Seu idioma preferido atualmente é <lang>{{language}}</lang>.",
     "form_title": "Idioma",
+    "help_translate": "Ajude a traduzir o Couchers para o seu idioma.",
+    "select_language": "Selecionar idioma",
+    "success_message": "Sua alteração foi salva.",
+    "error_loading_languages": "Não foi possível carregar opções de idioma. Tente novamente mais tarde.",
     "translation_progress": {
-      "just_started": "Acabou de começar",
-      "no_data": "Nenhum dado disponível sobre a tradução",
-      "complete": "Concluído",
       "title": "Tradução em andamento",
       "description": "Veja o avanço das nossas traduções em diferentes idiomas. Ajude-nos a tornar o Couchers acessível para mais pessoas em todo o mundo!",
       "help_translate": "Ajude a traduzir o Couchres para o seu idioma",
       "loading": "Carregando andamento da tradução...",
       "error_loading": "Não foi possível carregar o andamento da tradução",
+      "no_data": "Nenhum dado disponível sobre a tradução",
+      "complete": "Concluído",
       "almost_there": "Quase lá",
       "midway": "No meio do caminho",
       "in_progress": "Em andamento",
       "early_stage": "No início",
+      "just_started": "Acabou de começar",
       "complete_percent": "{{percent}}% concluído",
       "info_text": "💡 Idiomas com 50 a 80% concluídos aparecem desabilitados no seletor de idiomas. Idiomas com menos de 50% concluídos ficam ocultos no seletor de idiomas. Para encorajar os colaboradores, idioma com menos de 20% traduzidos são mostrados neste site.",
       "view_progress": "Ver o andamento da tradução"
     },
-    "help_translate": "Ajude a traduzir o Couchers para o seu idioma.",
-    "select_language": "Selecionar idioma",
-    "success_message": "Sua alteração foi salva.",
-    "error_loading_languages": "Não foi possível carregar opções de idioma. Tente novamente mais tarde.",
     "show_all_languages": "Mostrar todos os idiomas no seletor de idiomas",
     "show_all_languages_description": "Quando habilitado, o seletor de idiomas mostrará todos os idiomas, independentemente da porcentagem de conclusão. Isso mostra idiomas em preparação apenas para ajudar a testar idiomas que ainda estão em andamento."
   },
-  "community_standing_description": "Calculada a partir de vários fatores, como referências e engajamento na comunidade.",
-  "community_standing": "Reputação na comunidade",
-  "verification_score": "Pontuação de verificação",
-  "verification_score_description": "Calculada a partir de recomendações de outros usuários",
-  "edit": "Editar",
-  "send": "Enviar",
-  "cancel": "Cancelar",
-  "submit": "Enviar",
-  "confirm": "Confirmar",
-  "read_more": "Ler mais",
-  "previous": "Anterior",
   "meetup_status": {
-    "unspecified_info": "Não informou",
-    "does_not_want_to_meetup": "Não pode encontrar",
     "wants_to_meetup": "Quer se encontrar",
-    "open_to_meetup": "Aberto para encontros"
+    "open_to_meetup": "Aberto para encontros",
+    "does_not_want_to_meetup": "Não pode encontrar",
+    "unspecified_info": "Não informou"
   },
   "report": {
+    "label": "Reportar um problema",
+    "title": "Reportar um problema",
     "bug": {
+      "button_label": "Reportar um problema técnico",
+      "warning_message": "Observe que esta informação, bem como informações de diagnóstico, incluindo em que página você está, qual navegador está usando e seu nome de usuário, será salva em uma lista pública de erros.",
       "title_label": "Reportar título",
       "title_helper": "Breve descrição do erro",
       "problem_label": "O que você fez para que o erro aparecesse?",
-      "expect_helper": "Breve descrição do que você esperava que acontecesse",
-      "warning_message": "Observe que esta informação, bem como informações de diagnóstico, incluindo em que página você está, qual navegador está usando e seu nome de usuário, será salva em uma lista pública de erros.",
-      "success_message2": "Agradecemos por relatar esse erro e melhorar o Couchers. Um relatório foi enviado para os desenvolvedores. O ID do erro é <id/>.",
-      "button_label": "Reportar um problema técnico",
       "problem_helper": "Breve descrição do problema e como reproduzí-lo",
-      "expect_label": "O que aconteceu? O que deveria ter acontecido?"
+      "expect_label": "O que aconteceu? O que deveria ter acontecido?",
+      "expect_helper": "Breve descrição do que você esperava que acontecesse",
+      "success_message2": "Agradecemos por relatar esse erro e melhorar o Couchers. Um relatório foi enviado para os desenvolvedores. O ID do erro é <id/>."
     },
-    "label": "Reportar um problema",
     "content": {
       "button_label": "Reportar conteúdo ou comportamento inapropriado",
-      "success_message": "Agradecemos por reportar e tornar o Couchers uma plataforma melhor para todos!",
-      "dialog_message": "Estamos trabalhando em ferramentas robustas de denúncia e moderação. Enquanto isso, envie um e-mail para o endereço abaixo. Inclua detalhes, como o usuário em questão, o que foi inapropriado e onde você viu isso."
+      "dialog_message": "Estamos trabalhando em ferramentas robustas de denúncia e moderação. Enquanto isso, envie um e-mail para o endereço abaixo. Inclua detalhes, como o usuário em questão, o que foi inapropriado e onde você viu isso.",
+      "success_message": "Agradecemos por reportar e tornar o Couchers uma plataforma melhor para todos!"
     },
-    "title": "Reportar um problema",
     "flag": {
       "block_user": "Bloquear {{username}}",
       "block_user_explainer": "Mensagens e solicitações dessa pessoa serão bloqueadas, e seu perfil, eventos e comentários não serão visíveis para ela. Ela não será informada sobre o bloqueio.",
@@ -127,17 +136,6 @@
       }
     }
   },
-  "copy_button": {
-    "a11y": "Copiar",
-    "copied_tooltip": "Copiado para área de transferência"
-  },
-  "image_input": {
-    "select_button_a11y": "Selecione uma imagem",
-    "replace_image_tooltip": "Clique para substituir a imagem",
-    "read_file_error_message": "Não foi possível ler o arquivo"
-  },
-  "not_found_text_1": "Não foi possível encontrar o URL ou recurso solicitado",
-  "not_found_text_2": "Quer apenas voltar ao <1>painel inicial?</1>",
   "not_found_alt": "Erro 404: recurso não encontrado",
   "change_time": "Alterar hora",
   "html_meta": {
@@ -168,12 +166,11 @@
       "location_publicly_visible": "Isto ficará visível publicamente",
       "location_warn": "Clique e arraste o círculo abaixo para mostrar às pessoas a localização aproximada da sua casa. Certifique-se de que sua casa não está no centro do círculo, assim as pessoas não saberão o local exato.",
       "map_is_blank": "Coordenadas ausentes, comece buscando uma localização no mapa acima",
+      "radius_text2_one": "{{count}} metro",
+      "radius_text2_other": "{{count}} metros",
       "no_location_results_text": "Nenhum resultado. Tente buscar apenas pela cidade.",
       "no_map_support": "Seu dispositivo não tem suporte para o mapa. Certifique-se de que o WebGL2 está habilitado ou tente um dispositivo/navegador diferente. Sentimos muito pelo transtorno!",
-      "press_enter_to_search": "Pressione enter para buscar",
-      "radius_text2_one": "{{count}} metro",
-      "radius_text2_many": "{{count}} metros",
-      "radius_text2_other": "{{count}} metros"
+      "press_enter_to_search": "Pressione enter para buscar"
     }
   },
   "nav": {
@@ -222,7 +219,6 @@
     "created_datetime": "Criado: {{datetime}}",
     "disabled_datetime": "Desabilitado: {{datetime}}",
     "number_of_uses_one": "Usos: {{count}} cadastro concluído",
-    "number_of_uses_many": "Usos: {{count}} cadastros concluídos",
     "number_of_uses_other": "Usos: {{count}} cadastros concluídos",
     "disable_link": "Dasabilitado",
     "banner": {
@@ -257,8 +253,6 @@
   },
   "what_is_cs": {
     "title": "O que é couch surfing?",
-    "description_1": "Couch surfing é um conceito em que alguns membros (os anfitriões) postam na plataforma indicando que estão abertos para hospedar outros membros (os surfers) que estão visitando suas cidades.",
-    "description_2": "É como ter um amigo em outra cidade e ir visitá-lo, mas você vai conhecer o amigo pela primeira vez quando chegar lá!",
     "get_involved_title": "O que posso fazer no Couchers.org?",
     "get_started": "Começar",
     "timeline_title": "Uma breve história do couch surfing",
@@ -310,10 +304,11 @@
     "join_couchers": "Junte-se ao Couchers.org",
     "is_it_safe": {
       "title": "Couch surfing é seguro?",
-      "description_1": "Ainda que toda viagem e interação com estranhos tenha algum risco, couch surfing é muito mais seguro do que as pessoas imaginam a princípio.",
-      "description_2": "Nossa comunidade é criada com base na confiança entre os membros, estabelecida por meio de referências após as estadias. Nossa equipe de moderação ativa leva cada denúncia a sério e combate ativamente maus atores que não cumprem com nossas <guidelines>Diretrizes da Comunidade</guidelines>.",
-      "description_3": "Além disso, a plataforma do Couchers inclui ferramentas como várias formas de verificação (como verificação forte com passaporte biométrico) que adicionam um nível a mais de segurança. É importante ter sempre um plano alternativo pronto caso as coisas não saiam como o esperado, e confiar nos seus instintos!"
-    }
+      "description": "While all travel and interaction with strangers carries some risk, couch surfing is a lot safer than many people initially imagine.",
+      "description_plural": "Ainda que toda viagem e interação com estranhos tenha algum risco, couch surfing é muito mais seguro do que as pessoas imaginam a princípio."
+    },
+    "description": "Couch surfing is a concept where some members (called hosts) post on the platform, stating they are open to hosting other members (called surfers) who are visiting their city.",
+    "description_plural": "Couch surfing é um conceito em que alguns membros (os anfitriões) postam na plataforma indicando que estão abertos para hospedar outros membros (os surfers) que estão visitando suas cidades."
   },
   "team": {
     "title": "A equipe",
@@ -379,5 +374,7 @@
     "zh-Hans": "Chinês (Simplificado)",
     "zh-Hant": "Chinês (Tradicional)",
     "hu": "Húngaro"
-  }
+  },
+  "not_found_text": "We couldn't find the URL or resource you requested",
+  "not_found_text_plural": "Não foi possível encontrar o URL ou recurso solicitado"
 }

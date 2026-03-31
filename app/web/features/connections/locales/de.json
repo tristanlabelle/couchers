@@ -1,20 +1,7 @@
 {
   "add_friend": "Freund hinzufügen",
-  "friend_requests_sent": "Ausstehende Freundschaftsanfragen",
-  "my_connections": "Meine Kontakte",
-  "friends": "Freunde",
-  "friend_list_title": "Deine Freunde",
-  "friend_requests": "Freundschaftsanfragen",
-  "no_friends": "Keine Freunde vorhanden",
-  "no_friend_requests": "Keine ausstehenden Freundschaftsanfragen",
-  "no_friend_requests_sent": "Keine ausstehenden Freundschaftsanfragen",
-  "pending": "Ausstehend",
-  "remove_friend": "Freund entfernen",
-  "remove_friend_confirmation_dialog": {
-    "message": "Bist du sicher, dass du {{name}} entfernen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
-    "title": "Freund entfernen",
-    "confirm": "Entfernen"
-  },
+  "accept": "Annehmen",
+  "decline": "Ablehnen",
   "blocked_list_title": "Blockierte Personen",
   "block_user": "Blockieren",
   "block_user_confirmation_dialog": {
@@ -22,13 +9,26 @@
     "message": "Nachrichten und Anfragen von dieser Person werden blockiert, und dein Profil, deine Events und Kommentare sind für diese Person nicht sichtbar. Die Person wird nicht darüber informiert, dass du sie blockiert hast.",
     "confirm": "Blockieren"
   },
+  "my_connections": "Meine Kontakte",
+  "friends": "Freunde",
+  "friend_list_title": "Deine Freunde",
+  "friend_requests": "Freundschaftsanfragen",
+  "friend_requests_sent": "Ausstehende Freundschaftsanfragen",
   "no_blocked_users": "Keine blockierten Personen",
+  "no_friends": "Keine Freunde vorhanden",
+  "no_friend_requests": "Keine ausstehenden Freundschaftsanfragen",
+  "no_friend_requests_sent": "Keine ausstehenden Freundschaftsanfragen",
+  "pending": "Ausstehend",
+  "remove_friend": "Freund entfernen",
+  "remove_friend_confirmation_dialog": {
+    "title": "Freund entfernen",
+    "message": "Bist du sicher, dass du {{name}} entfernen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "confirm": "Entfernen"
+  },
   "unblock_user": "Entsperren",
   "unblock_user_confirmation_dialog": {
     "title": "Willst du {{name}} wirklich entsperren?",
     "message": "Das Entsperren ermöglicht es der Person, dein Profil zu sehen und dir Anfragen zu senden. Wenn ihr zuvor befreundet wart, wird die Person wieder in deine Freundesliste aufgenommen. Die Person wird nicht benachrichtigt.",
     "confirm": "Entsperren"
-  },
-  "accept": "Annehmen",
-  "decline": "Ablehnen"
+  }
 }
