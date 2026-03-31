@@ -5,8 +5,8 @@
     "try_again": "Erneut versuchen",
     "camera_permission_denied": "Die Kameraerlaubnis ist erforderlich, um Fotos zu machen.",
     "camera_permission_required": "Kameraberechtigung erforderlich",
-    "camera_permission_denied_permanently": "Der Kamerazugriff wurde verweigert. Um Fotos aufzunehmen, musst du die Kameraberechtigung in den Einstellungen deines Geräts aktivieren.",
-    "camera_permission_explanation": "Diese App benötigt Kamerazugriff, um Fotos aufzunehmen. Bitte erteile die Berechtigung, wenn du dazu aufgefordert wirst."
+    "camera_permission_explanation": "Diese App benötigt Kamerazugriff, um Fotos aufzunehmen. Bitte erteile die Berechtigung, wenn du dazu aufgefordert wirst.",
+    "camera_permission_denied_permanently": "Der Kamerazugriff wurde verweigert. Um Fotos aufzunehmen, musst du die Kameraberechtigung in den Einstellungen deines Geräts aktivieren."
   },
   "not_found": {
     "title": "Upps!",
@@ -23,9 +23,9 @@
   "common": {
     "cancel": "Abbrechen",
     "add_photo": "Foto hinzufügen",
+    "choose_photo_source": "Wähle aus, woher dein Foto stammen soll",
     "take_photo": "Foto aufnehmen",
     "choose_from_library": "Aus der Bibliothek wählen",
-    "open_settings": "Einstellungen öffnen",
-    "choose_photo_source": "Wähle aus, woher dein Foto stammen soll"
+    "open_settings": "Einstellungen öffnen"
   }
 }
