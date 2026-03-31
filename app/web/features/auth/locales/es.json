@@ -1,78 +1,44 @@
 {
   "change_email_form": {
     "title": "Cambiar correo electrónico",
-    "current_password": "Contraseña actual",
-    "new_email": "Nuevo correo electrónico",
     "current_email_message": "Tu dirección actual de correo electrónico es <1>{{email}}</1>.",
-    "success_message": "El cambio de tu correo electrónico ha sido recibido. Revisa tu nuevo correo electrónico para completar el cambio."
+    "success_message": "El cambio de tu correo electrónico ha sido recibido. Revisa tu nuevo correo electrónico para completar el cambio.",
+    "current_password": "Contraseña actual",
+    "new_email": "Nuevo correo electrónico"
+  },
+  "do_not_email": {
+    "title": "No quiero recibir correos electrónicos",
+    "status": {
+      "no_emails_enabled_message": "Los correos electrónicos están actualmente <1>desactivados</1> en tu cuenta.",
+      "no_emails_disabled_message": "Los correos electrónicos están actualmente <1>activados</1> en tu cuenta."
+    },
+    "action_button": {
+      "no_emails_enable_text": "No quiero recibir correos electrónicos",
+      "no_emails_disable_text": "Reactivar correos electrónicos"
+    },
+    "caveat": "Activando este ajuste, tu cuenta será configurada para no aceptar solicitudes de alojamiento. Seguirás recibiendo correos electrónicos de seguridad (como los de reestablecimiento de contraseña). Podrías seguir recibiendo la newsletter, puedes desuscribirte de ella utilizando el enlace al pie de la newsletter."
   },
   "change_email_confirmation": {
-    "success_message": "Tu correo electrónico ha sido cambiado con éxito!",
     "change_in_progress": "Cambio de correo electrónico en proceso …",
+    "success_message": "Tu correo electrónico ha sido cambiado con éxito!",
     "error_message": "Error al cambiar el correo electrónico: {{message}}"
-  },
-  "account_form": {
-    "gender": {
-      "required_error": "Por favor, selecciona tu género",
-      "field_label": "Me identifico como…",
-      "man": "Hombre",
-      "non_binary": "No-binario",
-      "woman": "Mujer"
-    },
-    "tos_prompt": "Para continuar, por favor lee y acepta el <1></1>.",
-    "header": "Detalles de tu cuenta",
-    "username": {
-      "field_label": "Nombre de usuario",
-      "required_error": "Introduce tu nombre de usuario",
-      "username_taken_error": "Este nombre de usuario ya existe.",
-      "validation_error": "El nombre usuario sólo puede contener números o _, y debe comenzar con una letra."
-    },
-    "birthday": {
-      "field_label": "Cumpleaños",
-      "required_error": "Introduce tu fecha de nacimiento",
-      "validation_error": "Debe ser una fecha pasada válida.",
-      "too_young_error": "Debes tener al menos 18 años para utilizar Couchers",
-      "not_real_date_error": "Por favor introduce una fecha de nacimiento real"
-    },
-    "hosting_status": {
-      "field_label": "Disponibilidad para alojar",
-      "can_host": "Puede alojar",
-      "maybe": "Tal vez podría alojar",
-      "cant_host": "No puedo alojar",
-      "any": "En cualquier momento"
-    },
-    "tos_accept_label": "Acepto los Términos y condiciones..",
-    "password": {
-      "validation_error": "La contraseña debe tener entre 8 y 256 caracteres y no ser extremadamente común.",
-      "required_error": "Introduce una contraseña",
-      "field_label": "Contraseña"
-    },
-    "opt_in_newsletter": "Suscríbete a nuestra newsletter ocasional sobre actualizaciones de la comunidad."
-  },
-  "basic_form": {
-    "email": {
-      "empty_error": "Por favor introduce una dirección de correo electrónico válido",
-      "field_label": "Correo electrónico",
-      "required_error": "El correo electrónico no puede estar vacío."
-    },
-    "name": {
-      "field_label": "Nombre",
-      "empty_error": "Por favor introduce tu nombre",
-      "required_error": "El nombre no puede ser sólo espacio en blanco."
-    }
   },
   "change_password_form": {
     "title": "Cambio de contraseña",
+    "subtitle": "Utiliza este formulario para restaurar la contraseña de inicio de sesión.",
     "confirm_password": "Confirmar contraseña",
     "password_changed_success": "Se ha establecido tu nueva contraseña y se ha enviado una notificación a tu correo electrónico.",
     "old_password": "Contraseña antigua",
     "new_password": "Nueva contraseña",
     "password_mismatch_error": "Esto no coincide con la nueva contraseña que has tecleado arriba.",
-    "token_error": "Hubo un error al procesar el token de restauración de contraseña, por favor intenta abrir el enlace del correo electrónico de nuevo.",
-    "subtitle": "Utiliza este formulario para restaurar la contraseña de inicio de sesión.",
     "user_logged_error": "No puedes restaurar tu contraseña si tienes una sesión iniciada. Puedes modificar tu contraseña en la configuración o cerrar la sesión para restaurarla.",
+    "token_error": "Hubo un error al procesar el token de restauración de contraseña, por favor intenta abrir el enlace del correo electrónico de nuevo.",
     "reset_password_success": "¡Tu contraseña ha sido modificada correctamente!",
     "reset_password_error": "Error al restaurar la contraseña: {{message}}"
+  },
+  "jail_set_password_form": {
+    "title": "Establecer una contraseña",
+    "explanation": "No has establecido una contraseña para tu cuenta anteriormente. Por favor, crea una ahora para continuar."
   },
   "reset_password_form": {
     "enter_email": "Introduce tu usuario/correo electrónico",
@@ -85,9 +51,9 @@
     "form": {
       "username_field_label": "Correo electrónico/Nombre de usuario",
       "password_field_label": "Contraseña",
-      "forgot_password": "¿Has olvidado tu contraseña?",
       "no_password_login_prompt": "¡Busca en tu correo electrónico el enlace para iniciar sesión! :)",
       "remember_me": "Recuérdame",
+      "forgot_password": "¿Has olvidado tu contraseña?",
       "show_password": "Mostrar contraseña",
       "hide_password": "Ocultar contraseña"
     }
@@ -97,25 +63,99 @@
     "existing_user_prompt": "¿Ya tienes una cuenta? <2>Iniciar sesión</2>",
     "sign_up_agreement_explainer": "Al continuar, aceptas nuestros <2>Términos y condiciones</2>, incluyendo nuestras políticas de gestión de cookies, de correo electrónico y de datos."
   },
+  "account_form": {
+    "header": "Detalles de tu cuenta",
+    "username": {
+      "field_label": "Nombre de usuario",
+      "helper_text": "This is your unique login ID, not your display name.",
+      "required_error": "Introduce tu nombre de usuario",
+      "username_taken_error": "Este nombre de usuario ya existe.",
+      "validation_error": "El nombre usuario sólo puede contener números o _, y debe comenzar con una letra."
+    },
+    "password": {
+      "field_label": "Contraseña",
+      "required_error": "Introduce una contraseña",
+      "validation_error": "La contraseña debe tener entre 8 y 256 caracteres y no ser extremadamente común."
+    },
+    "birthday": {
+      "field_label": "Cumpleaños",
+      "required_error": "Introduce tu fecha de nacimiento",
+      "validation_error": "Debe ser una fecha pasada válida.",
+      "too_young_error": "Debes tener al menos 18 años para utilizar Couchers",
+      "not_real_date_error": "Por favor introduce una fecha de nacimiento real"
+    },
+    "hosting_status": {
+      "any": "En cualquier momento",
+      "field_label": "Disponibilidad para alojar",
+      "can_host": "Puede alojar",
+      "maybe": "Tal vez podría alojar",
+      "cant_host": "No puedo alojar"
+    },
+    "gender": {
+      "field_label": "Me identifico como…",
+      "required_error": "Por favor, selecciona tu género",
+      "man": "Hombre",
+      "non_binary": "No-binario",
+      "woman": "Mujer"
+    },
+    "opt_in_newsletter": "Suscríbete a nuestra newsletter ocasional sobre actualizaciones de la comunidad.",
+    "tos_prompt": "Para continuar, por favor lee y acepta el <1></1>.",
+    "tos_accept_label": "Acepto los Términos y condiciones.."
+  },
+  "basic_form": {
+    "name": {
+      "field_label": "Nombre",
+      "empty_error": "Por favor introduce tu nombre",
+      "required_error": "El nombre no puede ser sólo espacio en blanco.",
+      "invalid_characters_error": "Name can only contain letters, spaces, hyphens, and apostrophes",
+      "min_length_error": "Name must be at least 2 characters",
+      "max_length_error": "Name must be no more than 100 characters"
+    },
+    "email": {
+      "field_label": "Correo electrónico",
+      "empty_error": "Por favor introduce una dirección de correo electrónico válido",
+      "required_error": "El correo electrónico no puede estar vacío."
+    }
+  },
   "location": {
     "field_label": "Tu ubicación",
     "validation_error": "Por favor selecciona una ubicación válida."
   },
+  "community_guidelines_form": {
+    "header": "Normas de la comunidad",
+    "guideline": {
+      "checkbox_label": "Entendido",
+      "required_error": "Debes marcar todas las casillas"
+    }
+  },
+  "motivations_form": {
+    "header": "What brings you to Couchers?",
+    "surfing": "Surfing",
+    "surfing_description": "I'm planning a trip and looking for a host",
+    "hosting": "Hosting",
+    "hosting_description": "I'd like to host and welcome travelers in my city",
+    "events": "Events",
+    "events_description": "I'd like to join events and meet the community",
+    "community_organizing": "Community organizing",
+    "community_organizing_description": "I want to organize events and activities on the platform",
+    "something_else": "Something else",
+    "something_else_description": "I'm just exploring or haven't decided yet"
+  },
   "jail": {
     "title": "Se requiere más información",
-    "location_section": {
-      "title": "Por favor, actualiza tu ubicación",
-      "submit_button": {
-        "inactive_text": "¡Gracias!",
-        "active_text": "Guardar"
-      },
-      "resubmit_button_text": "Reenviar",
-      "explanation": "Parece que tus coordenadas no eran correctas. Por favor actualiza tu ubicación para continuar."
-    },
+    "description": "Por favor, comprueba lo siguiente para continuar.",
     "terms_of_service_section": {
       "description": "Hemos actualizado nuestros Términos y Condiciones. Para continuar, por favor lea y acepte los nuevos <1></1>."
     },
-    "description": "Por favor, comprueba lo siguiente para continuar.",
+    "location_section": {
+      "title": "Por favor, actualiza tu ubicación",
+      "explanation": "Parece que tus coordenadas no eran correctas. Por favor actualiza tu ubicación para continuar.",
+      "submit_button": {
+        "active_text": "Guardar",
+        "inactive_text": "¡Gracias!"
+      },
+      "resubmit_button_text": "Reenviar"
+    },
     "mod_note_section": {
       "title": "Has recibido una nota de los moderadores",
       "description": "Los moderadores te han enviado la siguiente nota. Por favor léela detenidamente y confirma que la has leído y comprendido antes de continuar.",
@@ -130,14 +170,15 @@
       "note": "¡Actualizaremos tu perfil para reflejar esta decisión!"
     }
   },
-  "jail_set_password_form": {
-    "title": "Establecer una contraseña",
-    "explanation": "No has establecido una contraseña para tu cuenta anteriormente. Por favor, crea una ahora para continuar."
-  },
   "logged_out_message": "Se ha cerrado tu sesión.",
-  "sign_up_completed_prompt": "Hemos enviado un enlace de verificación a tu dirección de correo electrónico. Por favor, pincha en el enlace para activar tu cuenta.",
   "sign_up_completed_title": "¡Gracias por registrarte!",
+  "sign_up_need_verification_title": "¡Cási hemos terminado, una última cosa!",
+  "sign_up_resend_verification_email_help": "¿No has recibido el correo eletrónico? Haz clic <2>aquí para reenviar el enlace de verificación</2>.",
+  "sign_up_resend_verification_done": "¡Hecho! Te hemos enviado otro correo electrónico.",
+  "sign_up_completed_prompt": "Hemos enviado un enlace de verificación a tu dirección de correo electrónico. Por favor, pincha en el enlace para activar tu cuenta.",
   "sign_up_confirmed_prompt": "¡Todo listo! Si el navegador no te redirecciona automáticamente, intenta iniciar sesión.",
+  "unhandled_sign_up_state": "Error: unhandled signup flow state.",
+  "login_prompt": "Haz clic aquí para iniciar sesión",
   "about_us": "Sobre nosotros",
   "reset_password": "Restablecer contraseña",
   "account_settings_page": {
@@ -152,94 +193,49 @@
     },
     "timezone_section": {
       "title": "Zona horaria y ubicación",
-      "explanation": "Esta hora y zona horaria se han determinado en función de la ubicación de tu casa. Por favor, reporta un error si no es correcto.",
-      "description": "Tu huso horario es <1>{{timezone}}</1>. Según esto, tu hora local es aproximadamente <4>{{time}}</4>."
+      "description": "Tu huso horario es <1>{{timezone}}</1>. Según esto, tu hora local es aproximadamente <4>{{time}}</4>.",
+      "explanation": "Esta hora y zona horaria se han determinado en función de la ubicación de tu casa. Por favor, reporta un error si no es correcto."
     },
     "username_section": {
       "title": "Nombre de usuario",
       "description": "Tu nombre de usuario es <1>{{username}}</1>.",
       "explanation": "El nombre de usuario se elige cuando creas tu cuenta."
+    },
+    "appearance_section": {
+      "title": "Appearance",
+      "current_mode": "Your current mode:",
+      "click_to_change": "Click the button below to cycle through Light, Dark, and System modes.",
+      "change_mode": "Change appearance mode",
+      "modes": {
+        "light": "Light mode",
+        "dark": "Dark mode",
+        "system": "System mode (follows your device)"
+      }
     }
   },
-  "login_prompt": "Haz clic aquí para iniciar sesión",
-  "community_guidelines_form": {
-    "guideline": {
-      "checkbox_label": "Entendido",
-      "required_error": "Debes marcar todas las casillas"
-    },
-    "header": "Normas de la comunidad"
-  },
   "feature_preview": {
+    "title": "Previsualización de características",
     "explanation": "Esta página te permite probar características que aun están en desarrollo antes de que estén completamente listas para que las utilice todo el mundo.",
+    "disclaimer": "Por favor, ten en cuenta que estas características son experimentales. Podrían no funcionar según lo previsto y cambiar rápidamente según las desarrollamos. ¡Siéntete libre de dar tu opinión usando el botón \"Informar de un problema\" para reportar cualquier error!",
     "no_previews": {
       "title": "Ninguna característica en previsualización ahora mismo",
       "explanation": "Ninguna característica en previsualización activada, por favor, ¡prueba más tarde!"
-    },
-    "title": "Previsualización de características",
-    "disclaimer": "Por favor, ten en cuenta que estas características son experimentales. Podrían no funcionar según lo previsto y cambiar rápidamente según las desarrollamos. ¡Siéntete libre de dar tu opinión usando el botón \"Informar de un problema\" para reportar cualquier error!"
+    }
   },
-  "delete_account": {
-    "request": {
-      "confirm_username_explanation": "Tu usuario es <1>{{ username }}</1>, por favor, tecléalo abajo para confirmar la eliminación de tu cuenta.",
-      "success_message": "Eliminación de cuenta iniciado. Para completar la eliminación de tu cuenta, confírmalo a través del correo electrónico que te hemos mandado, por favor.",
-      "title": "Eliminar cuenta",
-      "confirm_username_label": "Confirmación de nombre de usuario",
-      "username_mismatch": "El nombre de usuario no coincide.",
-      "reason_explanation": "Por favor, ayúdanos a mejorar la plataforma contándonos por qué has decidido eliminar tu cuenta.",
-      "reason_label": "Motivo para eliminar la cuenta",
-      "description": "Para eliminar tu cuenta, sigue los pasos indicados abajo. Te enviaremos una confirmación a tu correo electrónico."
-    },
-    "recover": {
-      "success": "Tu cuenta ha sido recuperada, puedes acceder de nuevo. ¡Estamos encantados de tenerte de vuelta!",
-      "title": "Recuperar tu cuenta de Couchers.org",
-      "error_message": "Fallo al recuperar la cuenta: {{message}}",
-      "button_text": "Recuperar tu cuenta"
-    },
-    "confirm": {
-      "title": "Confirmar eliminación de cuenta",
-      "error_message": "Fallo al confirmar la eliminación de la cuenta: {{message}}",
-      "button_text": "Confirmar eliminación de la cuenta",
-      "account_deleted": "Cuenta eliminada. ¡Gracias por utilizar Couchers.org!"
-    },
-    "missing_token": "Error: falta token"
-  },
-  "change_phone": {
-    "phone_label": "Tu número de teléfono",
-    "add_button_text": "Añadir número de teléfono",
-    "add_success": "Número de teléfono añadido.",
-    "code_label": "Código de verificación",
-    "wrong_code": "El código es incorrecto.",
-    "verify_button_text": "Verificar número de teléfono",
-    "verify_success": "Teléfono verificado.",
-    "remove_button_text": "Eliminar número de teléfono actual",
-    "remove_success": "Teléfono eliminado.",
-    "change_to_different_description": "Para cambiar tu número de teléfono, escribe abajo el nuevo.",
-    "change_button_text": "Cambiar número de teléfono",
-    "title": "Número de teléfono",
-    "no_phone_description": "No has añadido un número de teléfono a tu cuenta. Para añadir uno, escríbelo abajo. Verificaremos tu número mediante un mensaje de texto.",
-    "phone_not_verified_description": "Te hemos enviado un código a <2>{{phone}}</2>. Para verificar tu teléfono, introduce el código a continuación:",
-    "remove_phone_description": "Tu número de teléfono actual es <2>{{phone}}</2>. Puedes eliminar tú número de teléfono abajo."
-  },
-  "unhandled_sign_up_state": "Error: unhandled signup flow state.",
-  "do_not_email": {
-    "title": "No quiero recibir correos electrónicos",
-    "status": {
-      "no_emails_enabled_message": "Los correos electrónicos están actualmente <1>desactivados</1> en tu cuenta.",
-      "no_emails_disabled_message": "Los correos electrónicos están actualmente <1>activados</1> en tu cuenta."
-    },
-    "action_button": {
-      "no_emails_enable_text": "No quiero recibir correos electrónicos",
-      "no_emails_disable_text": "Reactivar correos electrónicos"
-    },
-    "caveat": "Activando este ajuste, tu cuenta será configurada para no aceptar solicitudes de alojamiento. Seguirás recibiendo correos electrónicos de seguridad (como los de reestablecimiento de contraseña). Podrías seguir recibiendo la newsletter, puedes desuscribirte de ella utilizando el enlace al pie de la newsletter."
-  },
-  "sign_up_need_verification_title": "¡Cási hemos terminado, una última cosa!",
-  "volunteer_management": {
-    "shown_on_team_page_current": "Mostrado en la página del equipo como miembro actual del equipo."
+  "active_logins": {
+    "heading": "Sesiones actuales",
+    "settings_page_text": "Consulta dónde has iniciado sesión y cierra otras sesiones",
+    "settings_page_link": "Gestionar sesiones actuales",
+    "description": "Esta página muestra sesiones activas; puedes cerrar cualquier sesión haciendo clic en el botón junto a la misma, o desplazándote hasta el final y haciendo clic en el botón para todas las sesiones excepto la actual.",
+    "login_header": "Sesión del {{login_datetime}}",
+    "location": "Cerca de <2>{{approximate_location}}</2>",
+    "last_activity": "Última actividad <2>{{last_activity_ago}}</2>",
+    "expiry": "Caduca el <1>{{expiry_datetime}}</1>",
+    "current_session": "Esta es tu sesión actual.",
+    "log_out_of_session": "Salir de esta sesión",
+    "log_out_of_all_session": "Cerrar todas las demás sesiones"
   },
   "strong_verification": {
-    "begin_button": "Completar la verificación robusta mediante Iris ID",
-    "information_text1": "Necesitarás un <strong>pasaporte biométrico</strong> (otros tipos de identificación no funcionarán) y un teléfono Apple o Android con capacidad NFC.",
     "learn_more": "Aprende sobre la verificación robusta <a>aquí</a>.",
     "title": "Verificación robusta",
     "subtitle": "La verificación robusta es una medida de seguridad adicional que te permite verificar tu fecha de nacimiento y tu género usando tu pasaporte biométrico.",
@@ -248,26 +244,145 @@
       "disabled_message": "Actualmente <1>no estás verificado</1> mediante verificación robusta."
     },
     "start_button": "Empezar la verificación robusta",
+    "begin_button": "Completar la verificación robusta mediante Iris ID",
+    "information_text1": "Necesitarás un <strong>pasaporte biométrico</strong> (otros tipos de identificación no funcionarán) y un teléfono Apple o Android con capacidad NFC.",
     "information_text2": "Al hacer clic en el botón de abajo, se te dirigirá a la web de Iris ID para completar el proceso de verificación de pasaporte.",
     "information_text3": "Puedes obtener más información sobre cómo nosotros e Iris ID procesamos y almacenamos tus datos en nuestros <2>Términos de servicio</2>. Según la <5>Política de privacidad</5> de Iris ID, eliminarán tu información personal en un plazo de 24 horas. Puedes solicitar que estos datos de verificación robusta (excepto el país emisor, la fecha de vencimiento y los últimos tres dígitos del número del documento) se eliminen de nuestros servidores en cualquier momento con solo el clic de un botón.",
     "complete_title": "Estamos procesando su intento de Verificación robusta",
     "complete_message1": "Tu pasaporte está siendo validado. Recibirás un correo electrónico con los resultados en unos minutos.",
     "complete_message2": "La verificación robusta expira cuando vence tu pasaporte, y deberás completar la verificación nuevamente con el nuevo pasaporte.",
-    "delete_data_title": "Eliminar los datos del pasaporte de tu verificación robusta"
+    "delete_data_title": "Eliminar los datos del pasaporte de tu verificación robusta",
+    "delete_information": "You can delete your Strong Verification data (except issuing country, expiry date, and the last three digits of the document number) from our servers at any time.",
+    "delete_information_text2": "If you delete your data, you cannot use the same passport for Strong Verification again.",
+    "delete_my_data_button": "Delete my data",
+    "delete_button": "Delete my Strong Verification data",
+    "delete_success": "Your passport data has been deleted.",
+    "donation_title": "Thanks for verifying—you're helping make Couchers.org safer for everyone.",
+    "donation_message1": "Verification is free for you, but it does come at a cost to us. As a nonprofit run by volunteers, we rely on donations to cover expenses like keeping our servers running, verification, and tools for volunteers and community builders.",
+    "donation_message2": "If you're able, please consider donating to help keep Couchers.org running and growing.",
+    "donate_button": "Donate to support Couchers.org",
+    "instructions": {
+      "title": "How to Complete Strong Verification",
+      "warning": "Important: The passport chip scanning step can be tricky—read all instructions first!",
+      "step1": "Download the <strong>Iris ID</strong> app",
+      "step1_apple_note": "<strong>Apple users:</strong> You can skip the download and use your browser instead. Just click \"Open\" when prompted.",
+      "step2": "Click <strong>\"Start Strong Verification\"</strong> below (opens in new tab)",
+      "step3": "Scan the QR code with your phone",
+      "step4": "If prompted, open the app and scan the QR code again",
+      "step5": "Select <strong>Passport</strong> (ID cards not supported)",
+      "step6": "Take a clear photo of the passport page with numbers at the bottom",
+      "step7": "Hold your phone against the passport page with the NFC chip (see tips below)",
+      "step8": "You'll know it's successful when you see increasing percentages and a loader",
+      "download_app_store": "Download on the App Store",
+      "download_google_play": "Get it on Google Play",
+      "chip_location": {
+        "heading": "Finding Your Passport's NFC Chip",
+        "description": "The chip location varies by country. You may need to try different pages. Here are some examples of locations:",
+        "us_germany_mexico": "<strong>Brazil, US, Germany (2016), Indonesia, Mexico:</strong> Back page",
+        "finland_germany_new": "<strong>Finland, Germany (2017+), Russia:</strong> Picture page",
+        "australia": "<strong>Australia:</strong> Middle page (marked with symbol + \"chip name\")"
+      }
+    }
   },
-  "active_logins": {
-    "description": "Esta página muestra sesiones activas; puedes cerrar cualquier sesión haciendo clic en el botón junto a la misma, o desplazándote hasta el final y haciendo clic en el botón para todas las sesiones excepto la actual.",
-    "settings_page_text": "Consulta dónde has iniciado sesión y cierra otras sesiones",
-    "settings_page_link": "Gestionar sesiones actuales",
-    "login_header": "Sesión del {{login_datetime}}",
-    "location": "Cerca de <2>{{approximate_location}}</2>",
-    "last_activity": "Última actividad <2>{{last_activity_ago}}</2>",
-    "expiry": "Caduca el <1>{{expiry_datetime}}</1>",
-    "current_session": "Esta es tu sesión actual.",
-    "log_out_of_session": "Salir de esta sesión",
-    "log_out_of_all_session": "Cerrar todas las demás sesiones",
-    "heading": "Sesiones actuales"
+  "quick_links": {
+    "title": "Email quick action",
+    "button_text": "Confirm action",
+    "error_message": "Error: {{message}}",
+    "missing_payload_or_sig": "Invalid URL"
   },
-  "sign_up_resend_verification_email_help": "¿No has recibido el correo eletrónico? Haz clic <2>aquí para reenviar el enlace de verificación</2>.",
-  "sign_up_resend_verification_done": "¡Hecho! Te hemos enviado otro correo electrónico."
+  "change_phone": {
+    "title": "Número de teléfono",
+    "need_to_donate": "You need to <2>donate</2> before you can complete phone verification.",
+    "no_phone_description": "No has añadido un número de teléfono a tu cuenta. Para añadir uno, escríbelo abajo. Verificaremos tu número mediante un mensaje de texto.",
+    "phone_label": "Tu número de teléfono",
+    "add_button_text": "Añadir número de teléfono",
+    "add_success": "Número de teléfono añadido.",
+    "phone_not_verified_description": "Te hemos enviado un código a <2>{{phone}}</2>. Para verificar tu teléfono, introduce el código a continuación:",
+    "code_label": "Código de verificación",
+    "wrong_code": "El código es incorrecto.",
+    "verify_button_text": "Verificar número de teléfono",
+    "verify_success": "Teléfono verificado.",
+    "remove_phone_description": "Tu número de teléfono actual es <2>{{phone}}</2>. Puedes eliminar tú número de teléfono abajo.",
+    "remove_button_text": "Eliminar número de teléfono actual",
+    "remove_success": "Teléfono eliminado.",
+    "change_to_different_description": "Para cambiar tu número de teléfono, escribe abajo el nuevo.",
+    "change_button_text": "Cambiar número de teléfono"
+  },
+  "delete_account": {
+    "request": {
+      "title": "Eliminar cuenta",
+      "description": "Para eliminar tu cuenta, sigue los pasos indicados abajo. Te enviaremos una confirmación a tu correo electrónico.",
+      "confirm_username_explanation": "Tu usuario es <1>{{ username }}</1>, por favor, tecléalo abajo para confirmar la eliminación de tu cuenta.",
+      "confirm_username_label": "Confirmación de nombre de usuario",
+      "username_mismatch": "El nombre de usuario no coincide.",
+      "reason_explanation": "Por favor, ayúdanos a mejorar la plataforma contándonos por qué has decidido eliminar tu cuenta.",
+      "reason_label": "Motivo para eliminar la cuenta",
+      "success_message": "Eliminación de cuenta iniciado. Para completar la eliminación de tu cuenta, confírmalo a través del correo electrónico que te hemos mandado, por favor."
+    },
+    "missing_token": "Error: falta token",
+    "confirm": {
+      "title": "Confirmar eliminación de cuenta",
+      "error_message": "Fallo al confirmar la eliminación de la cuenta: {{message}}",
+      "button_text": "Confirmar eliminación de la cuenta",
+      "account_deleted": "Cuenta eliminada. ¡Gracias por utilizar Couchers.org!"
+    },
+    "recover": {
+      "title": "Recuperar tu cuenta de Couchers.org",
+      "error_message": "Fallo al recuperar la cuenta: {{message}}",
+      "button_text": "Recuperar tu cuenta",
+      "success": "Tu cuenta ha sido recuperada, puedes acceder de nuevo. ¡Estamos encantados de tenerte de vuelta!"
+    }
+  },
+  "profile_visibility": {
+    "title": "Profile Visibility",
+    "choose": "Choose what information will be visible to logged-out users",
+    "visiblility_options": {
+      "nothing": "<1>Nothing</1>: hide me completely",
+      "map_only": "<1>Map only</1>: show a randomized, anonymous map pin with no other information",
+      "limited": "<1>Limited</1>: show my name, location, hosting/meetup status, badges, number of references, and how long I've been a Coucher",
+      "most": "<1>Most</1>: show full \"About me\" section except \"Additional information\"",
+      "full_profile": "<1>Full profile</1>: show my full profile (except references)"
+    }
+  },
+  "volunteer_management": {
+    "title": "Volunteer Management",
+    "description": "If your role or dates are incorrect, please let us know.",
+    "card_preview_label": "Your team page listing",
+    "not_a_volunteer_message": "According to our records you are not a current or past volunteer. If this is incorrect, please let us know by filling in <1>this form</1>.",
+    "current_volunteer": "Volunteering since {{startDate}}.",
+    "past_volunteer": "Volunteered from {{startDate}} to {{endDate}}.",
+    "shown_on_team_page_current": "Mostrado en la página del equipo como miembro actual del equipo.",
+    "shown_on_team_page_past": "Shown on team page as a past volunteer.",
+    "not_shown_on_team_page": "Hidden from team page.",
+    "update_success": "Your volunteer information has been updated.",
+    "form": {
+      "title": "Update your volunteer info",
+      "override_name_label": "Use a different name on the team page (instead of \"{{profileName}}\")",
+      "display_name_label": "Display name",
+      "override_location_label": "Use a different location on the team page (instead of \"{{profileLocation}}\")",
+      "display_location_label": "Display location",
+      "show_on_team_page_label": "Show me on the team page",
+      "link_type_label": "Link type",
+      "link_type_couchers": "Couchers profile",
+      "link_type_email": "Email",
+      "link_type_linkedin": "LinkedIn",
+      "link_type_website": "Website",
+      "link_text_label": "Link value",
+      "link_text_linkedin_placeholder": "jane-doe-a1b2c3",
+      "link_text_email_placeholder": "your@email.com",
+      "link_text_website_placeholder": "https://your-website.com",
+      "link_text_linkedin_helper": "The username from your profile URL (e.g. linkedin.com/in/jane-doe-a1b2c3)",
+      "link_text_email_helper": "Your email address",
+      "link_text_website_helper": "The text to display for the link",
+      "link_text_required": "Please enter a value for the link",
+      "link_text_email_invalid": "Please enter a valid email address",
+      "link_text_linkedin_invalid": "Please enter a valid LinkedIn username (letters, numbers, and hyphens only)",
+      "link_url_label": "Link URL",
+      "link_url_placeholder": "https://your-website.com",
+      "link_url_helper": "The full URL the link should point to",
+      "link_url_required": "Please enter a URL for the website",
+      "link_url_invalid": "Please enter a valid URL starting with http:// or https://",
+      "save_button": "Save changes"
+    }
+  }
 }
