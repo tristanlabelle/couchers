@@ -1,154 +1,185 @@
 {
-  "request_closed_message": "Este pedido de hospedagem está fechado ou passado. Para continuar a conversar, envia uma mensagem normal à outra pessoa.",
-  "mark_all_read_button_text": "Marcar todos como lidos",
-  "create_chat": {
-    "group_title_field_label": "Título",
-    "no_friends_found_message": "Não foi possível encontrar nenhum amigo",
-    "dm_title": "Criar nova conversa",
-    "group_title": "Criar nova conversa de grupo",
-    "user_load_error_message": "(Erro ao carregar utilizador)",
-    "friends_input_label": "Amigos"
+  "mark_all_read_button_text": "Mark all as read",
+  "mark_all_read_button_text_chats": "Mark all chats as read",
+  "mark_all_read_button_text_hosting": "Mark all host requests as read",
+  "mark_all_read_button_text_surfing": "Mark all surf requests as read",
+  "request_closed_message": "This host request is closed. To continue chatting, send the other person a normal message.",
+  "write_reference_button_text": "Write a Reference",
+  "close_request_dialog_title": "Are you done messaging?",
+  "close_request_dialog_host": "Please make sure you are done chatting before you decline their request.",
+  "close_request_dialog_surfer": "Please make sure you are done chatting before you cancel your request.",
+  "close_request_button_text": "Decline",
+  "confirm_request_button_text": "Confirm",
+  "host_pending_request_help_text": "<0>Things to consider</0> before responding.",
+  "surfer_declined_request_help_text": "<0>Read our guide</0> on how to write a request that will get accepted.",
+  "past_request_help_text": "This request is in the past, you can still send messages but cannot otherwise modify it.",
+  "messages_page": {
+    "title": "Messages",
+    "tabs": {
+      "aria_label": "Tabs for different message types",
+      "chats": "Chats",
+      "hosting": "Hosting",
+      "surfing": "Surfing",
+      "archived": "Archived"
+    }
   },
-  "host_request_item": {
-    "surfer_status": {
-      "cancelled": "O teu pedido foi cancelado",
-      "accepted": "O teu pedido foi aceite",
-      "confirmed": "O teu pedido foi confirmado",
-      "rejected": "O teu pedido foi rejeitado"
-    },
-    "expired": "Esta solicitação expirou",
-    "host_status": {
-      "cancelled": "Cancelaste este pedido",
-      "accepted": "Aceitaste este pedido",
-      "confirmed": "Confirmaste este pedido",
-      "rejected": "Rejeitaste este pedido"
-    },
-    "pending": "Este pedido ainda está pendente"
+  "archive": {
+    "archived": "Archived",
+    "archive_button": "Archive",
+    "unarchive_button": "Unarchive",
+    "show_archived": "Show archived",
+    "show_active": "Show active",
+    "no_archived_chats": "No archived chats",
+    "no_archived_requests": "No archived requests",
+    "no_archived_messages": "No archived messages"
   },
-  "close_request_dialog_surfer": "Por favor, certifica-te que terminaste de conversar antes de cancelares o pedido.",
   "chat_view": {
+    "cannot_message_text": "You cannot send messages in this chat",
+    "invalid_id_error": "Invalid chat ID.",
+    "no_messages_state_text": "No messages",
+    "back_button": {
+      "a11y_label": "Back"
+    },
     "muted_icon": {
-      "a11y_label": "Silenciado"
+      "a11y_label": "Muted"
     },
     "actions_menu": {
-      "a11y_label": "Mostrar mais ações de conversa",
+      "a11y_label": "Show more chat actions",
       "items": {
-        "invite_members": "Convidar para conversa",
-        "show_all_members": "Participantes da conversa",
-        "manage_admins": "Gerir administradores da conversa",
-        "chat_settings": "Definições de conversa",
-        "leave_chat": "Abandonar conversa"
+        "invite_members": "Invite to chat",
+        "show_all_members": "Chat members",
+        "manage_admins": "Manage chat admins",
+        "chat_settings": "Chat settings",
+        "leave_chat": "Leave chat"
       }
     },
     "mute": {
-      "unmute_button_label": "Reactivar conversa",
-      "button_label": "Silenciar conversa",
-      "dialog_title": "Durante quanto tempo queres silenciar?",
-      "1_hour_label": "1 hora",
-      "8_hours_label": "8 horas",
-      "1_day_label": "1 dia",
-      "1_week_label": "1 semana",
-      "1_month_label": "1 mês",
-      "forever_label": "Até eu voltar a ligar"
-    },
-    "invalid_id_error": "ID de conversa inválido.",
-    "no_messages_state_text": "Sem mensagens",
-    "back_button": {
-      "a11y_label": "Voltar"
+      "button_label": "Mute chat",
+      "unmute_button_label": "Unmute chat",
+      "dialog_title": "How long do you want to mute?",
+      "1_hour_label": "1 hour",
+      "8_hours_label": "8 hours",
+      "1_day_label": "1 day",
+      "1_week_label": "1 week",
+      "1_month_label": "1 month",
+      "forever_label": "Until I unmute"
     }
-  },
-  "chat_input": {
-    "label": "Mensagem"
   },
   "admins_dialog": {
     "step_down_confirmation_dialog": {
-      "message": "Tens a certeza que queres deixar de ser administrador desta conversa de grupo? Não poderás voltar a ser administrador, a não ser que outro administrador te adicione como tal.",
-      "title": "Deixar de ser administrador?"
+      "title": "Step down as admin?",
+      "message": "Are you sure you want to stop being an admin of this group chat? You will not be able to become an admin again unless another admin adds you."
     },
     "remove_admin": {
-      "title": "Remover administrador",
-      "action_a11y_label": "Remover como administrador"
+      "title": "Remove admin",
+      "action_a11y_label": "Remove as admin"
     },
     "add_admin": {
-      "title": "Adicionar administrador",
-      "action_a11y_label": "Adicionar como administrador"
+      "title": "Add admin",
+      "action_a11y_label": "Add as admin"
     }
+  },
+  "create_chat": {
+    "dm_title": "Create a new chat",
+    "group_title": "Create group chat",
+    "group_title_field_label": "Title",
+    "no_friends_found_message": "Couldn't find any friends",
+    "user_load_error_message": "(User load error)",
+    "friends_input_label": "Friends",
+    "title_label": "Title",
+    "create_button": "Create chat",
+    "back_button": "Back",
+    "hosting_request_hint": "Sending a hosting request? Go <back>Back</back> and use the <request>Request</request> button instead."
+  },
+  "chat_input": {
+    "label": "Message"
   },
   "group_chat_settings_dialog": {
-    "only_admins_invite": {
-      "field_label": "Apenas os administradores podem convidar outros para a conversa"
-    },
-    "title": "Definições de conversa de grupo",
+    "title": "Group chat settings",
     "chat_title": {
-      "field_label": "Título da conversa"
+      "field_label": "Chat title"
+    },
+    "only_admins_invite": {
+      "field_label": "Only admins can invite others to the chat"
     }
-  },
-  "control_message": {
-    "admin_assignment_text": "{{user}} fez de {{target_user}} administrador(a)",
-    "user_left_chat_text": "{{user}} abandonou a conversa",
-    "admin_removal_text": "{{user}} removeu {{target_user}} de administrador(a)",
-    "created_chat_text": "{{user}} iniciou a conversa",
-    "edited_chat_text": "{{user}} editou a conversa",
-    "invite_user_text": "{{user}} convidou {{target_user}}",
-    "unknown_message_text": "Mensagem de controlo desconhecida"
   },
   "group_chats_tab": {
-    "no_chats_message": "Sem conversas de grupo",
-    "load_more_button_label": "Carregar mais"
+    "no_chats_message": "No group chats yet",
+    "load_more_button_label": "Load more"
   },
   "requests_tab": {
-    "no_requests_message": "Ainda não há pedidos",
-    "load_more_button_label": "Carregar mais"
+    "no_requests_message": "No requests yet",
+    "load_more_button_label": "Load more"
   },
-  "invite_dialog": {
-    "title": "Convidar para conversa",
-    "selected": {
-      "field_label": "Amigos",
-      "no_options_text": "Ninguém para convidar",
-      "option_load_error_text": "(Erro ao carregar utilizador)"
-    },
-    "invite_button_label": "Convidar"
-  },
-  "leave_chat_dialog": {
-    "title": "Abandonar conversa?",
-    "message": "Tens a certeza que queres abandonar esta conversa?"
-  },
-  "host_request_status": {
-    "rejected": "Rejeitado",
-    "accepted": "Aceite",
-    "cancelled": "Cancelado",
-    "confirmed": "Confirmado",
-    "pending": "Pendente",
-    "past": "Passado"
-  },
-  "host_request_view": {
-    "back_button_a11y_label": "Voltar",
-    "title_for_host": "Pedido de {{user}} - {{status}}",
-    "title_for_surfer": "Pedido a {{user}} - {{status}}",
-    "request_duration_one": "{{count}} noite",
-    "request_duration_many": "",
-    "request_duration_other": "{{count}} noites",
-    "error_message": "ID de pedido de hospedagem inválido"
-  },
-  "write_reference_button_text": "Escreve uma Referência",
-  "close_request_dialog_title": "Já terminaste de enviar mensagens?",
-  "close_request_dialog_host": "Por favor, certifica-te de que terminaste de conversar antes de rejeitares o pedido.",
-  "close_request_button_text": "Rejeitar",
-  "confirm_request_button_text": "Confirmar",
-  "messages_page": {
-    "title": "Mensagens",
-    "tabs": {
-      "aria_label": "Separadores para diferentes tipos de mensagens",
-      "chats": "Conversas",
-      "hosting": "A hospedar",
-      "surfing": "A surfar"
+  "all_messages_tab": {
+    "no_messages": "No messages yet",
+    "load_more": "Load more",
+    "filter": {
+      "all": "All"
     }
   },
-  "members_dialog": {
-    "title": "Participantes da conversa"
+  "invite_dialog": {
+    "title": "Invite to chat",
+    "selected": {
+      "field_label": "Friends",
+      "no_options_text": "No one to invite",
+      "option_load_error_text": "(User load error)"
+    },
+    "invite_button_label": "Invite"
   },
-  "host_pending_request_help_text": "<0>Coisas a considerar</0> antes de responder.",
-  "surfer_declined_request_help_text": "<0>Leia nosso guia</0> sobre como escrever um pedido que será aceito.",
-  "past_request_help_text": "Esta solicitação está no passado, você ainda pode enviar mensagens, mas não pode modificá-la de outra forma.",
-  "unknown_user": "Utilizador desconhecido"
+  "leave_chat_dialog": {
+    "title": "Leave chat?",
+    "message": "Are you sure you want to leave this chat?"
+  },
+  "members_dialog": {
+    "title": "Chat Members"
+  },
+  "control_message": {
+    "created_chat_text": "{{user}} created the chat",
+    "edited_chat_text": "{{user}} edited the chat",
+    "invite_user_text": "{{user}} invited {{target_user}}",
+    "user_left_chat_text": "{{user}} left the chat",
+    "admin_assignment_text": "{{user}} made {{target_user}} an admin",
+    "admin_removal_text": "{{user}} removed {{target_user}} as admin",
+    "host_request_status_changed": {
+      "accepted": "{{user}} has accepted the request",
+      "cancelled": "{{user}} has cancelled the request",
+      "confirmed": "{{user}} has confirmed the request",
+      "rejected": "{{user}} has rejected the request"
+    },
+    "unknown_message_text": "Unknown control message"
+  },
+  "host_request_status": {
+    "accepted": "Accepted",
+    "cancelled": "Cancelled",
+    "confirmed": "Confirmed",
+    "past": "Past",
+    "pending": "Pending",
+    "rejected": "Declined"
+  },
+  "host_request_item": {
+    "expired": "This request is expired",
+    "pending": "This request is still pending",
+    "host_status": {
+      "accepted": "You have accepted this request",
+      "cancelled": "You have cancelled this request",
+      "confirmed": "You have confirmed this request",
+      "rejected": "You have declined this request"
+    },
+    "surfer_status": {
+      "accepted": "Your request was accepted",
+      "cancelled": "Your request was cancelled",
+      "confirmed": "Your request was confirmed",
+      "rejected": "Your request was declined"
+    }
+  },
+  "host_request_view": {
+    "error_message": "Invalid host request ID",
+    "back_button_a11y_label": "Back",
+    "title_for_host": "Request from {{user}} - {{status}}",
+    "title_for_surfer": "Request to {{user}} - {{status}}",
+    "request_duration_one": "{{count}} night",
+    "request_duration_other": "{{count}} nights"
+  },
+  "unknown_user": "Unknown user"
 }
