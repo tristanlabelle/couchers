@@ -1,10 +1,20 @@
 {
   "add_friend": "Adicionar amigo(a)",
-  "friends": "Amigos",
+  "accept": "Accept",
+  "decline": "Decline",
+  "blocked_list_title": "Blocked users",
+  "block_user": "Block user",
+  "block_user_confirmation_dialog": {
+    "title": "Are you sure you want to block {{name}}?",
+    "message": "Messages and requests from this person will be blocked, and your profile, events and comments will not be visible to this person. They will not be informed that you blocked them.",
+    "confirm": "Block"
+  },
   "my_connections": "As minhas ligações",
+  "friends": "Amigos",
   "friend_list_title": "Os teus amigos",
   "friend_requests": "Pedidos de amizade",
   "friend_requests_sent": "Pedidos de amizade enviados",
+  "no_blocked_users": "No blocked users",
   "no_friends": "Nenhum amigo disponível",
   "no_friend_requests": "Sem pedidos de amizade pendentes",
   "no_friend_requests_sent": "Sem pedidos de amizade pendentes",
@@ -14,5 +24,11 @@
     "title": "Remover amigo(a)",
     "message": "Tem a certeza de que pretende remover {{name}}? Esta ação não pode ser anulada.",
     "confirm": "Remover"
+  },
+  "unblock_user": "Unblock user",
+  "unblock_user_confirmation_dialog": {
+    "title": "Are you sure you want to unblock {{name}}?",
+    "message": "Unblocking will allow them to see your profile and send you requests. If you were previously friends, they will go back into your friends list. They will not be notified.",
+    "confirm": "Unblock"
   }
 }
